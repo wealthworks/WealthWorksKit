@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		342FC2761D2E4D4C00B6B015 /* WWKCommonService.h in Headers */ = {isa = PBXBuildFile; fileRef = 342FC2741D2E4D4C00B6B015 /* WWKCommonService.h */; };
+		342FC2771D2E4D4C00B6B015 /* WWKCommonService.m in Sources */ = {isa = PBXBuildFile; fileRef = 342FC2751D2E4D4C00B6B015 /* WWKCommonService.m */; };
 		3454378E1D2CE847002EC80D /* WealthWorksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3454378D1D2CE847002EC80D /* WealthWorksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3454379E1D2CEC0E002EC80D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3454379D1D2CEC0E002EC80D /* AdSupport.framework */; };
 		345437A11D2CEC59002EC80D /* WWKDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 3454379F1D2CEC59002EC80D /* WWKDevice.h */; };
@@ -17,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		342FC2741D2E4D4C00B6B015 /* WWKCommonService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWKCommonService.h; sourceTree = "<group>"; };
+		342FC2751D2E4D4C00B6B015 /* WWKCommonService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWKCommonService.m; sourceTree = "<group>"; };
+		342FC2781D2E68E100B6B015 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3454378A1D2CE847002EC80D /* WealthWorksKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WealthWorksKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3454378D1D2CE847002EC80D /* WealthWorksKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WealthWorksKit.h; sourceTree = "<group>"; };
 		3454378F1D2CE847002EC80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		342FC2731D2E4D0E00B6B015 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				342FC2741D2E4D4C00B6B015 /* WWKCommonService.h */,
+				342FC2751D2E4D4C00B6B015 /* WWKCommonService.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		345437801D2CE847002EC80D = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +80,7 @@
 			children = (
 				3454378D1D2CE847002EC80D /* WealthWorksKit.h */,
 				3454379C1D2CEB4E002EC80D /* Utils */,
+				342FC2731D2E4D0E00B6B015 /* Network */,
 				345437951D2CEA1D002EC80D /* Supporting Files */,
 			);
 			path = WealthWorksKit;
@@ -75,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				3454378F1D2CE847002EC80D /* Info.plist */,
+				342FC2781D2E68E100B6B015 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,6 +134,7 @@
 				345437A91D2CF38F002EC80D /* WWKBundle.h in Headers */,
 				345437A11D2CEC59002EC80D /* WWKDevice.h in Headers */,
 				3454378E1D2CE847002EC80D /* WealthWorksKit.h in Headers */,
+				342FC2761D2E4D4C00B6B015 /* WWKCommonService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +242,7 @@
 			files = (
 				345437AA1D2CF38F002EC80D /* WWKBundle.m in Sources */,
 				345437A21D2CEC59002EC80D /* WWKDevice.m in Sources */,
+				342FC2771D2E4D4C00B6B015 /* WWKCommonService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +347,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WealthWorksKit/PrefixHeader.pch";
 				INFOPLIST_FILE = WealthWorksKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -346,6 +365,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WealthWorksKit/PrefixHeader.pch";
 				INFOPLIST_FILE = WealthWorksKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

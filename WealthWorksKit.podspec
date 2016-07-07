@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 	# s.watchos.deployment_target = "2.0"
 	# s.tvos.deployment_target = "9.0"
 
-	s.source       = { :git => "git@github.com:wealthworks/WealthWorksKit.git", :tag => "#{s.version}", :submodules => true }
+	s.source       = { :git => "git@github.com:wealthworks/WealthWorksKit.git", :submodules => true }
 	s.source_files  = "WealthWorksKit/WealthWorksKit.h"
 	# s.exclude_files = "Classes/Exclude"
 	s.public_header_files = "WealthWorksKit/WealthWorksKit.h"
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 	# s.resources = "Resources/*.png"
 
 	# s.framework  = "SomeFramework"
-	# s.frameworks = "AdSupport"
+	s.frameworks = "UIKit"
 
 	# s.library   = "iconv"
 	# s.libraries = "iconv", "xml2"
@@ -44,6 +44,11 @@ Pod::Spec.new do |s|
 		ss.public_header_files = 'WealthWorksKit/Utils/*.h'
 		ss.frameworks = "AdSupport"
 		ss.dependency "OpenUDID"
+	end
+
+	s.subspec 'Network' do |ss|
+		ss.source_files = 'WealthWorksKit/Network/*.{h,m}'
+		ss.public_header_files = 'WealthWorksKit/Network/*.h'
 	end
 
 end

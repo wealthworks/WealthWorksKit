@@ -22,4 +22,19 @@
     return [OpenUDID value];
 }
 
++ (NSString *)model
+{
+    return [UIDevice currentDevice].model;
+}
+
++ (NSString *)systemName
+{
+    return [UIDevice currentDevice].systemName;
+}
+
++ (NSString *)systemVersion
+{
+    return [UIDevice currentDevice].systemVersion;
+}
+
 @end
