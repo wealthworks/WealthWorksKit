@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		342FC2761D2E4D4C00B6B015 /* WWKCommonService.h in Headers */ = {isa = PBXBuildFile; fileRef = 342FC2741D2E4D4C00B6B015 /* WWKCommonService.h */; };
+		342FC2761D2E4D4C00B6B015 /* WWKCommonService.h in Headers */ = {isa = PBXBuildFile; fileRef = 342FC2741D2E4D4C00B6B015 /* WWKCommonService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		342FC2771D2E4D4C00B6B015 /* WWKCommonService.m in Sources */ = {isa = PBXBuildFile; fileRef = 342FC2751D2E4D4C00B6B015 /* WWKCommonService.m */; };
 		3454378E1D2CE847002EC80D /* WealthWorksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3454378D1D2CE847002EC80D /* WealthWorksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3454379E1D2CEC0E002EC80D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3454379D1D2CEC0E002EC80D /* AdSupport.framework */; };
-		345437A11D2CEC59002EC80D /* WWKDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 3454379F1D2CEC59002EC80D /* WWKDevice.h */; };
+		345437A11D2CEC59002EC80D /* WWKDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 3454379F1D2CEC59002EC80D /* WWKDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		345437A21D2CEC59002EC80D /* WWKDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 345437A01D2CEC59002EC80D /* WWKDevice.m */; };
-		345437A91D2CF38F002EC80D /* WWKBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 345437A71D2CF38F002EC80D /* WWKBundle.h */; };
+		345437A91D2CF38F002EC80D /* WWKBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 345437A71D2CF38F002EC80D /* WWKBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		345437AA1D2CF38F002EC80D /* WWKBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 345437A81D2CF38F002EC80D /* WWKBundle.m */; };
 		44E3F58B068E5A490C7304E1 /* libPods-WealthWorksKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D824D5AD6DD526ECC622E0 /* libPods-WealthWorksKit.a */; };
 /* End PBXBuildFile section */
@@ -287,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -329,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,6 +350,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WealthWorksKit/PrefixHeader.pch";
 				INFOPLIST_FILE = WealthWorksKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wealthworks.WealthWorksKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -368,6 +369,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WealthWorksKit/PrefixHeader.pch";
 				INFOPLIST_FILE = WealthWorksKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wealthworks.WealthWorksKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
