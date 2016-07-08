@@ -6,7 +6,7 @@
 //  Copyright © 2016年 WealthWorks. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface WWKDevice : NSObject
 
@@ -19,5 +19,34 @@
  *  OpenUDID
  */
 + (NSString *)openUDID;
+
+/**
+ *  设备类型
+ *  e.g. @"iPhone", @"iPod touch"
+ */
++ (NSString *)model;
+
+/**
+ *  系统名称
+ *  e.g. @"iOS"
+ */
++ (NSString *)systemName;
+
+/**
+ *  系统版本号
+ *  e.g. @"4.0"
+ */
++ (NSString *)systemVersion;
+
+/**
+ *  设备全部IP地址信息
+ */
++ (NSDictionary *)IPAddresses;
+
+/**
+ *  设备IP地址信息
+ *  WIFI(ipv6) > WIFI(ipv4) > CELLULAR(ipv6) > CELLULAR(ipv4)
+ */
++ (NSString *)IPAddress;
 
 @end
