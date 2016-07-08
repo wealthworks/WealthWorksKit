@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     // DEMO
-    [WWKCommonService sendUserMetaDataWithAppID:WWKCommonServiceUserMetaDataAppIDGuihua];
+    [WWKCommonService sendUserMetaDataWithSite:WWKCommonServiceUserMetaDataSiteGuihua];
     
 }
 

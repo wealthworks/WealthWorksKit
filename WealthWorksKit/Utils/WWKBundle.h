@@ -20,4 +20,9 @@
  */
 + (NSString *)bundleID;
 
+/**
+ *  编译版本号（git提交号）
+ */
++ (NSString *)buildVersion;
+
 @end

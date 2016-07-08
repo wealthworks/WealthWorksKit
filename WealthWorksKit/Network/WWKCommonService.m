@@ -12,28 +12,31 @@
 
 @implementation WWKCommonService
 
-+ (void)sendUserMetaDataWithAppID:(WWKCommonServiceUserMetaDataAppID)appID
++ (void)sendUserMetaDataWithSite:(WWKCommonServiceUserMetaDataSite)site
 {
-    if (appID != WWKCommonServiceUserMetaDataAppIDTalicai &&
-        appID != WWKCommonServiceUserMetaDataAppIDTimi    &&
-        appID != WWKCommonServiceUserMetaDataAppIDGuihua  &&
-        appID != WWKCommonServiceUserMetaDataAppIDFund) {
-        
-        WWKLog(@"===== [WealthWorksKit] => %s : APPID ERROR", __FUNCTION__);
-        
-        return;
+    switch (site) {
+        case WWKCommonServiceUserMetaDataSiteTalicai:
+        case WWKCommonServiceUserMetaDataSiteGuihua:
+        case WWKCommonServiceUserMetaDataSiteTimi:
+        case WWKCommonServiceUserMetaDataSiteFund:
+            break;
+        default:
+            WWKLog(@"===== [WealthWorksKit] => %s : APPID ERROR", __FUNCTION__);
+            return;
     }
     
     NSDictionary *paramsDict = @{
-                                @"appid"      : @(appID),
-                                @"ip"         : [WWKDevice IPAddress],
-                                @"idfa"       : [WWKDevice IDFA],
-                                @"model"      : [WWKDevice model],
-                                @"openudid"   : [WWKDevice openUDID],
-                                @"os"         : [NSString stringWithFormat:@"%@ %@", [WWKDevice systemName], [WWKDevice systemVersion]],
-                                @"app_domain" : @"AppStore",
-                                @"app_version": [WWKBundle appVersion]
-                                };
+                                 @"os"        : @(2), // 1=android, 2=iOS, 3=other
+                                 @"osversion" : [WWKDevice systemVersion],
+                                 @"idfa"      : [WWKDevice IDFA],
+                                 @"openudid"  : [WWKDevice openUDID],
+                                 @"model"     : [WWKDevice model],
+                                 @"appversion": [WWKBundle appVersion],
+                                 @"buildcode" : [WWKBundle buildVersion],
+                                 @"channel"   : @"AppStore",
+                                 @"ip"        : [WWKDevice IPAddress],
+                                 @"site"      : @(site)
+                                 };
     
     NSMutableArray<NSString *> *paramsArray = [[NSMutableArray alloc] initWithCapacity:paramsDict.count];
     [paramsDict enumerateKeysAndObjectsUsingBlock:^(NSString *key, id obj, BOOL *stop) {

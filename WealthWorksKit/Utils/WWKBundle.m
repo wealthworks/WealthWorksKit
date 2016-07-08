@@ -20,4 +20,9 @@
     return [[NSBundle mainBundle] bundleIdentifier];
 }
 
++ (NSString *)buildVersion
+{
+    return [[NSBundle mainBundle] infoDictionary][(NSString *)kCFBundleVersionKey];
+}
+
 @end

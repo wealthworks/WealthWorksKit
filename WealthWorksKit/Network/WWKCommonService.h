@@ -8,15 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-typedef NS_ENUM(NSInteger, WWKCommonServiceUserMetaDataAppID) {
-    WWKCommonServiceUserMetaDataAppIDTalicai = 1,
-    WWKCommonServiceUserMetaDataAppIDTimi    = 3,
-    WWKCommonServiceUserMetaDataAppIDGuihua  = 5,
-    WWKCommonServiceUserMetaDataAppIDFund    = 7,
+typedef NS_ENUM(NSUInteger, WWKCommonServiceUserMetaDataSite) {
+    WWKCommonServiceUserMetaDataSiteTalicai = 1,
+    WWKCommonServiceUserMetaDataSiteGuihua  = 2,
+    WWKCommonServiceUserMetaDataSiteTimi    = 3,
+    WWKCommonServiceUserMetaDataSiteFund    = 4,
 };
 
 @interface WWKCommonService : NSObject
 
-+ (void)sendUserMetaDataWithAppID:(WWKCommonServiceUserMetaDataAppID)appID;
++ (void)sendUserMetaDataWithSite:(WWKCommonServiceUserMetaDataSite)site;
 
 @end
