@@ -15,8 +15,40 @@
 		345437A21D2CEC59002EC80D /* WWKDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 345437A01D2CEC59002EC80D /* WWKDevice.m */; };
 		345437A91D2CF38F002EC80D /* WWKBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 345437A71D2CF38F002EC80D /* WWKBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		345437AA1D2CF38F002EC80D /* WWKBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 345437A81D2CF38F002EC80D /* WWKBundle.m */; };
+		348BF5001D2F5B1800446FA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 348BF4FF1D2F5B1800446FA4 /* main.m */; };
+		348BF5031D2F5B1800446FA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 348BF5021D2F5B1800446FA4 /* AppDelegate.m */; };
+		348BF5061D2F5B1800446FA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348BF5051D2F5B1800446FA4 /* ViewController.m */; };
+		348BF5091D2F5B1800446FA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348BF5071D2F5B1800446FA4 /* Main.storyboard */; };
+		348BF50B1D2F5B1800446FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348BF50A1D2F5B1800446FA4 /* Assets.xcassets */; };
+		348BF50E1D2F5B1800446FA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348BF50C1D2F5B1800446FA4 /* LaunchScreen.storyboard */; };
+		348BF5131D2F5B3700446FA4 /* WealthWorksKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3454378A1D2CE847002EC80D /* WealthWorksKit.framework */; };
+		348BF5141D2F5B3700446FA4 /* WealthWorksKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3454378A1D2CE847002EC80D /* WealthWorksKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		44E3F58B068E5A490C7304E1 /* libPods-WealthWorksKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D824D5AD6DD526ECC622E0 /* libPods-WealthWorksKit.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		348BF5151D2F5B3700446FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 345437811D2CE847002EC80D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 345437891D2CE847002EC80D;
+			remoteInfo = WealthWorksKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		348BF5171D2F5B3700446FA4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				348BF5141D2F5B3700446FA4 /* WealthWorksKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		342FC2741D2E4D4C00B6B015 /* WWKCommonService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWKCommonService.h; sourceTree = "<group>"; };
@@ -30,6 +62,16 @@
 		345437A01D2CEC59002EC80D /* WWKDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWKDevice.m; sourceTree = "<group>"; };
 		345437A71D2CF38F002EC80D /* WWKBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWKBundle.h; sourceTree = "<group>"; };
 		345437A81D2CF38F002EC80D /* WWKBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWKBundle.m; sourceTree = "<group>"; };
+		348BF4FC1D2F5B1800446FA4 /* WealthWorksKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WealthWorksKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		348BF4FF1D2F5B1800446FA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		348BF5011D2F5B1800446FA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		348BF5021D2F5B1800446FA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		348BF5041D2F5B1800446FA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		348BF5051D2F5B1800446FA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		348BF5081D2F5B1800446FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		348BF50A1D2F5B1800446FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		348BF50D1D2F5B1800446FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		348BF50F1D2F5B1800446FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40DC842CFA5E3353A5233AE9 /* Pods-WealthWorksKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WealthWorksKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-WealthWorksKit/Pods-WealthWorksKit.release.xcconfig"; sourceTree = "<group>"; };
 		BE001146090F25AADD48BF36 /* Pods-WealthWorksKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WealthWorksKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WealthWorksKit/Pods-WealthWorksKit.debug.xcconfig"; sourceTree = "<group>"; };
 		E8D824D5AD6DD526ECC622E0 /* libPods-WealthWorksKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WealthWorksKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +84,14 @@
 			files = (
 				3454379E1D2CEC0E002EC80D /* AdSupport.framework in Frameworks */,
 				44E3F58B068E5A490C7304E1 /* libPods-WealthWorksKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348BF4F91D2F5B1800446FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348BF5131D2F5B3700446FA4 /* WealthWorksKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +110,7 @@
 		345437801D2CE847002EC80D = {
 			isa = PBXGroup;
 			children = (
+				348BF4FD1D2F5B1800446FA4 /* WealthWorksKitDemo */,
 				3454378C1D2CE847002EC80D /* WealthWorksKit */,
 				3454378B1D2CE847002EC80D /* Products */,
 				345437961D2CEA9A002EC80D /* Frameworks */,
@@ -71,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				3454378A1D2CE847002EC80D /* WealthWorksKit.framework */,
+				348BF4FC1D2F5B1800446FA4 /* WealthWorksKitDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +165,30 @@
 				345437A81D2CF38F002EC80D /* WWKBundle.m */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		348BF4FD1D2F5B1800446FA4 /* WealthWorksKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				348BF5011D2F5B1800446FA4 /* AppDelegate.h */,
+				348BF5021D2F5B1800446FA4 /* AppDelegate.m */,
+				348BF5041D2F5B1800446FA4 /* ViewController.h */,
+				348BF5051D2F5B1800446FA4 /* ViewController.m */,
+				348BF5071D2F5B1800446FA4 /* Main.storyboard */,
+				348BF50A1D2F5B1800446FA4 /* Assets.xcassets */,
+				348BF50C1D2F5B1800446FA4 /* LaunchScreen.storyboard */,
+				348BF50F1D2F5B1800446FA4 /* Info.plist */,
+				348BF4FE1D2F5B1800446FA4 /* Supporting Files */,
+			);
+			path = WealthWorksKitDemo;
+			sourceTree = "<group>";
+		};
+		348BF4FE1D2F5B1800446FA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				348BF4FF1D2F5B1800446FA4 /* main.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		9B89464FAD1478854487E04F /* Pods */ = {
@@ -161,6 +237,25 @@
 			productReference = 3454378A1D2CE847002EC80D /* WealthWorksKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		348BF4FB1D2F5B1800446FA4 /* WealthWorksKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 348BF5101D2F5B1800446FA4 /* Build configuration list for PBXNativeTarget "WealthWorksKitDemo" */;
+			buildPhases = (
+				348BF4F81D2F5B1800446FA4 /* Sources */,
+				348BF4F91D2F5B1800446FA4 /* Frameworks */,
+				348BF4FA1D2F5B1800446FA4 /* Resources */,
+				348BF5171D2F5B3700446FA4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				348BF5161D2F5B3700446FA4 /* PBXTargetDependency */,
+			);
+			name = WealthWorksKitDemo;
+			productName = WealthWorksKitDemo;
+			productReference = 348BF4FC1D2F5B1800446FA4 /* WealthWorksKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -173,6 +268,9 @@
 					345437891D2CE847002EC80D = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					348BF4FB1D2F5B1800446FA4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 345437841D2CE847002EC80D /* Build configuration list for PBXProject "WealthWorksKit" */;
@@ -181,6 +279,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 345437801D2CE847002EC80D;
 			productRefGroup = 3454378B1D2CE847002EC80D /* Products */;
@@ -188,6 +287,7 @@
 			projectRoot = "";
 			targets = (
 				345437891D2CE847002EC80D /* WealthWorksKit */,
+				348BF4FB1D2F5B1800446FA4 /* WealthWorksKitDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -197,6 +297,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348BF4FA1D2F5B1800446FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348BF50E1D2F5B1800446FA4 /* LaunchScreen.storyboard in Resources */,
+				348BF50B1D2F5B1800446FA4 /* Assets.xcassets in Resources */,
+				348BF5091D2F5B1800446FA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +356,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		348BF4F81D2F5B1800446FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348BF5061D2F5B1800446FA4 /* ViewController.m in Sources */,
+				348BF5031D2F5B1800446FA4 /* AppDelegate.m in Sources */,
+				348BF5001D2F5B1800446FA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		348BF5161D2F5B3700446FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 345437891D2CE847002EC80D /* WealthWorksKit */;
+			targetProxy = 348BF5151D2F5B3700446FA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		348BF5071D2F5B1800446FA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				348BF5081D2F5B1800446FA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		348BF50C1D2F5B1800446FA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				348BF50D1D2F5B1800446FA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		345437901D2CE847002EC80D /* Debug */ = {
@@ -377,6 +524,30 @@
 			};
 			name = Release;
 		};
+		348BF5111D2F5B1800446FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WealthWorksKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wealthworks.WealthWorksKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		348BF5121D2F5B1800446FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WealthWorksKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wealthworks.WealthWorksKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -397,6 +568,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		348BF5101D2F5B1800446FA4 /* Build configuration list for PBXNativeTarget "WealthWorksKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348BF5111D2F5B1800446FA4 /* Debug */,
+				348BF5121D2F5B1800446FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
