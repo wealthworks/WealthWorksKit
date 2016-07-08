@@ -19,7 +19,7 @@
         appID != WWKCommonServiceUserMetaDataAppIDGuihua  &&
         appID != WWKCommonServiceUserMetaDataAppIDFund) {
         
-        WWKLog(@"======================================== WWKCommonService -sendUserMetaDataWithAppID: APPID ERROR ========================================\n");
+        WWKLog(@"===== [WealthWorksKit] => %s : APPID ERROR", __FUNCTION__);
         
         return;
     }
@@ -43,15 +43,13 @@
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://click.licaigc.cn/r/app?%@", params]]];
     request.HTTPMethod = @"GET";
     
-    WWKLog(@"======================================== WWKCommonService -sendUserMetaDataWithAppID: PARAMS ========================================\n");
+    WWKLog(@"===== [WealthWorksKit] => %s : PARAMS :", __FUNCTION__);
     WWKLog(@"%@", paramsDict);
-    WWKLog(@"======================================== WWKCommonService -sendUserMetaDataWithAppID: PARAMS ========================================\n");
     
     NSURLSession *session = [NSURLSession sharedSession];
     [[session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
-        WWKLog(@"======================================== WWKCommonService -sendUserMetaDataWithAppID: RESPONSE ========================================\n");
+        WWKLog(@"===== [WealthWorksKit] => %s : RESPONSE :", __FUNCTION__);
         WWKLog(@"%@", response);
-        WWKLog(@"======================================== WWKCommonService -sendUserMetaDataWithAppID: RESPONSE ========================================\n");
     }] resume];
 }
 

@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     // DEMO
-    NSLog(@"%@", [WWKDevice openUDID]);
+    [WWKCommonService sendUserMetaDataWithAppID:WWKCommonServiceUserMetaDataAppIDGuihua];
     
 }
 
