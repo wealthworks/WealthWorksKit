@@ -44,7 +44,7 @@
     }];
     NSString *params = [[paramsArray componentsJoinedByString:@"&"] stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
     
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://click.licaigc.cn/r/app?%@", params]]];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://c.lcgc.pub/r/app?%@", params]]];
     request.HTTPMethod = @"GET";
     
     WWKLog(@"===== [WealthWorksKit] => %s : PARAMS :", __FUNCTION__);
