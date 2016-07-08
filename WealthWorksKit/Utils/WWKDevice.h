@@ -38,4 +38,15 @@
  */
 + (NSString *)systemVersion;
 
+/**
+ *  设备全部IP地址信息
+ */
++ (NSDictionary *)IPAddresses;
+
+/**
+ *  设备IP地址信息
+ *  WIFI(ipv6) > WIFI(ipv4) > CELLULAR(ipv6) > CELLULAR(ipv4)
+ */
++ (NSString *)IPAddress;
+
 @end

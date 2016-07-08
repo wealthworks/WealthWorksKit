@@ -26,6 +26,7 @@
     
     NSDictionary *paramsDict = @{
                                 @"appid"      : @(appID),
+                                @"ip"         : [WWKDevice IPAddress],
                                 @"idfa"       : [WWKDevice IDFA],
                                 @"model"      : [WWKDevice model],
                                 @"openudid"   : [WWKDevice openUDID],
