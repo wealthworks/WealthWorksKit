@@ -8,7 +8,7 @@
 
 #import "WWKDevice.h"
 #import <AdSupport/AdSupport.h>
-#import <OpenUDID/OpenUDID.h>
+#import <FCUUID/FCUUID.h>
 
 #import <ifaddrs.h>
 #import <arpa/inet.h>
@@ -27,9 +27,9 @@
     return [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
 }
 
-+ (NSString *)openUDID
++ (NSString *)uuid
 {
-    return [OpenUDID value];
+    return [FCUUID uuidForDevice];
 }
 
 + (NSString *)model

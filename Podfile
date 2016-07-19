@@ -3,6 +3,6 @@
 
 target 'WealthWorksKit' do
 
-pod 'OpenUDID'
+pod 'FCUUID'
 
 end

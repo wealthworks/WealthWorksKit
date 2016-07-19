@@ -16,9 +16,9 @@
 + (NSString *)IDFA NS_AVAILABLE_IOS(6_0);
 
 /**
- *  OpenUDID
+ *  FCUUID
  */
-+ (NSString *)openUDID;
++ (NSString *)uuid;
 
 /**
  *  设备类型

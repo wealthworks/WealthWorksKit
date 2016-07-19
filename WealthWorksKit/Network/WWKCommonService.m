@@ -29,7 +29,7 @@
                                  @"os"        : @(2), // 1=android, 2=iOS, 3=other
                                  @"osversion" : [WWKDevice systemVersion],
                                  @"idfa"      : [WWKDevice IDFA],
-                                 @"openudid"  : [WWKDevice openUDID],
+                                 @"openudid"  : [WWKDevice uuid],
                                  @"model"     : [WWKDevice model],
                                  @"appversion": [WWKBundle appVersion],
                                  @"buildcode" : [WWKBundle buildVersion],
