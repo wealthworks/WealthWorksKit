@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 #import <WealthWorksKit/WealthWorksKit.h>
+#import "ViewController.h"
+#import "WWKURLNavigator.h"
+#import "TestNavigator/TestNavigator.h"
 
 @interface ViewController ()
 
@@ -21,12 +24,20 @@
     
     // DEMO
     [WWKCommonService sendUserMetaDataWithSite:WWKCommonServiceUserMetaDataSiteGuihua];
-    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)jumpToOtherController:(id)sender {
+    WWKURLNavigatorAction *action = [WWKURLNavigatorAction actionWithURLPath:kTestViewController];
+    
+    NSDictionary *params = @{@"param1" : @"123", @"param2" : @"abc"};
+    [action applyQuery:params];
+    
+    [[WWKURLNavigator navigator] openURLAction:action];
 }
 
 @end
