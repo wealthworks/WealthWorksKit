@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "TestNavigator/TestNavigator.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [TestNavigator setup];
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    ViewController *rootViewController = (ViewController *)[storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    
+    // 设置KeyWindow
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
