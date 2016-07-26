@@ -11,10 +11,14 @@
 @implementation UIApplication (UINavigationController)
 
 - (UINavigationController *)visibleNavigationController {
-    UIWindow *appWindow = [UIApplication sharedApplication].keyWindow;
-    UIViewController *rootVC = appWindow.rootViewController;
-    UINavigationController *navController = [self recursiveGetNavController:rootVC];
-    return navController;
+    id appDelegate = [UIApplication sharedApplication].delegate;
+    if ([appDelegate respondsToSelector:@selector(window)]) {
+        UIWindow *appDelegateWindow = [appDelegate window];
+        UIViewController *rootVC = appDelegateWindow.rootViewController;
+        UINavigationController *navController = [self recursiveGetNavController:rootVC];
+        return navController;
+    }
+    return nil;
 }
 
 #pragma mark - private - 递归获取可见UIViewController的UINavigationController
@@ -34,41 +38,14 @@
         UIViewController *presentedVC = vc.presentedViewController;
         
         if (!presentedVC) {
-            if (vc.navigationController) {
-                return vc.navigationController;
-            } else {
-                return [self appdelegateRootNavigationController];
-            }
+            return vc.navigationController;
         } else {
             return [self recursiveGetNavController:presentedVC];
         }
-        
-    } else {
-        return [self appdelegateRootNavigationController];
     }
+    
+    return nil;
 }
 
-- (UINavigationController *)appdelegateRootNavigationController {
-    UINavigationController *nav = nil;
-    id appDelegate = [UIApplication sharedApplication].delegate;
-    
-    if ([appDelegate respondsToSelector:@selector(window)]) {
-        UIWindow *appDelegateWindow = [appDelegate window];
-        UIViewController *rootViewController = appDelegateWindow.rootViewController;
-        if ([rootViewController isKindOfClass:[UITabBarController class]]) {
-            UITabBarController *tabbarController = (UITabBarController *)rootViewController;
-            UIViewController *selectedVC = tabbarController.selectedViewController;
-            if ([selectedVC isKindOfClass:[UINavigationController class]]) {
-                return (UINavigationController *)selectedVC;
-            } else {
-                return selectedVC.navigationController;
-            }
-        } else if ([rootViewController isKindOfClass:[UINavigationController class]]) {
-            return (UINavigationController *)rootViewController;
-        }
-    }
-    
-    return nav;
-}
 
 @end
