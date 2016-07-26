@@ -11,10 +11,14 @@
 @implementation UIApplication (UINavigationController)
 
 - (UINavigationController *)visibleNavigationController {
-    UIWindow *appWindow = [UIApplication sharedApplication].keyWindow;
-    UIViewController *rootVC = appWindow.rootViewController;
-    UINavigationController *navController = [self recursiveGetNavController:rootVC];
-    return navController;
+    id appDelegate = [UIApplication sharedApplication].delegate;
+    if ([appDelegate respondsToSelector:@selector(window)]) {
+        UIWindow *appDelegateWindow = [appDelegate window];
+        UIViewController *rootVC = appDelegateWindow.rootViewController;
+        UINavigationController *navController = [self recursiveGetNavController:rootVC];
+        return navController;
+    }
+    return nil;
 }
 
 #pragma mark - private - 递归获取可见UIViewController的UINavigationController
@@ -38,22 +42,9 @@
         } else {
             return [self recursiveGetNavController:presentedVC];
         }
-        
-    } else {
-        UINavigationController *nav = nil;
-        id appDelegate = [UIApplication sharedApplication].delegate;
-        
-        if ([appDelegate respondsToSelector:@selector(window)]) {
-            UIWindow *appDelegateWindow = [appDelegate window];
-            UIViewController *rootViewController = appDelegateWindow.rootViewController;
-            
-            if ([rootViewController isKindOfClass:[UINavigationController class]]) {
-                nav = (UINavigationController *)rootViewController;
-            }
-        }
-        
-        return nav;
     }
+    
+    return nil;
 }
 
 @end
