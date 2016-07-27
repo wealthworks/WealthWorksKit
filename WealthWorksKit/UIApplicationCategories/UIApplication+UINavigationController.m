@@ -34,26 +34,41 @@
         UIViewController *presentedVC = vc.presentedViewController;
         
         if (!presentedVC) {
-            return vc.navigationController;
+            if (vc.navigationController) {
+                return vc.navigationController;
+            } else {
+                return [self appdelegateRootNavigationController];
+            }
         } else {
             return [self recursiveGetNavController:presentedVC];
         }
         
     } else {
-        UINavigationController *nav = nil;
-        id appDelegate = [UIApplication sharedApplication].delegate;
-        
-        if ([appDelegate respondsToSelector:@selector(window)]) {
-            UIWindow *appDelegateWindow = [appDelegate window];
-            UIViewController *rootViewController = appDelegateWindow.rootViewController;
-            
-            if ([rootViewController isKindOfClass:[UINavigationController class]]) {
-                nav = (UINavigationController *)rootViewController;
-            }
-        }
-        
-        return nav;
+        return [self appdelegateRootNavigationController];
     }
+}
+
+- (UINavigationController *)appdelegateRootNavigationController {
+    UINavigationController *nav = nil;
+    id appDelegate = [UIApplication sharedApplication].delegate;
+    
+    if ([appDelegate respondsToSelector:@selector(window)]) {
+        UIWindow *appDelegateWindow = [appDelegate window];
+        UIViewController *rootViewController = appDelegateWindow.rootViewController;
+        if ([rootViewController isKindOfClass:[UITabBarController class]]) {
+            UITabBarController *tabbarController = (UITabBarController *)rootViewController;
+            UIViewController *selectedVC = tabbarController.selectedViewController;
+            if ([selectedVC isKindOfClass:[UINavigationController class]]) {
+                return (UINavigationController *)selectedVC;
+            } else {
+                return selectedVC.navigationController;
+            }
+        } else if ([rootViewController isKindOfClass:[UINavigationController class]]) {
+            return (UINavigationController *)rootViewController;
+        }
+    }
+    
+    return nav;
 }
 
 @end
