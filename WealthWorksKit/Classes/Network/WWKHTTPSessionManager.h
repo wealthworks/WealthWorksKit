@@ -21,4 +21,14 @@
 + (instancetype)wwk_manager;
 + (instancetype)wwk_managerWithBaseURL:(NSString *)baseURL;
 
+- (NSURLSessionDataTask *)wwk_GET:(NSString *)URLString
+                       parameters:(NSDictionary *)parameters
+                          success:(void (^)(NSURLSessionDataTask *task, NSDictionary *responseObject))success
+                          failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure;
+
+- (NSURLSessionDataTask *)wwk_POST:(NSString *)URLString
+                        parameters:(NSDictionary *)parameters
+                           success:(void (^)(NSURLSessionDataTask *task, NSDictionary *responseObject))success
+                           failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure;
+
 @end

@@ -50,7 +50,7 @@ static NSString * const kCheckAppUpdateURL   = @"/v1/update/check";
 + (void)checkAppUpdateWithSuccess:(void (^)(NSURLSessionDataTask *task, WWKAppUpdateInfo *appUpdateInfo))success
                           failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure
 {
-    WWKHTTPSessionManager *manager = [WWKHTTPSessionManager wwk_managerWithBaseURL:@"http://192.168.10.115:34000/"];
+    WWKHTTPSessionManager *manager = [WWKHTTPSessionManager wwk_managerWithBaseURL:@"http://192.168.8.21:34000/"];
     NSDictionary *params = @{
                              @"pkg_name": [WWKBundle bundleID],
                              @"platform": @(2), // 1=android, 2=iOS, 3=other
@@ -59,10 +59,10 @@ static NSString * const kCheckAppUpdateURL   = @"/v1/update/check";
                              };
     
     WWKLogPARAMS(params);
-    [manager GET:kCheckAppUpdateURL parameters:params progress:nil success:^(NSURLSessionDataTask *task, NSDictionary *responseObject) {
+    [manager wwk_GET:kCheckAppUpdateURL parameters:params success:^(NSURLSessionDataTask *task, NSDictionary *responseObject) {
         WWKLogSUCCESS(responseObject);
         if (!success) return;
-        WWKAppUpdateInfo *appUpdateInfo = [WWKAppUpdateInfo mj_objectWithKeyValues:responseObject];
+        WWKAppUpdateInfo *appUpdateInfo = [WWKAppUpdateInfo mj_objectWithKeyValues:responseObject[@"data"]];
         success(task, appUpdateInfo);
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
         WWKLogFAILURE(error);

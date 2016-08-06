@@ -18,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [self testCommonService];
 }
 
 - (IBAction)jumpToOtherController:(id)sender {

@@ -20,6 +20,10 @@
 @property (nonatomic, copy  ) NSString *md5;            /**< MD5 */
 @property (nonatomic, copy  ) NSString *url;            /**< URL */
 @property (nonatomic, copy  ) NSNumber *size;           /**< 文件大小 */
-@property (nonatomic, copy  ) NSString *changlog;       /**< 更新日志 */
+@property (nonatomic, copy  ) NSArray  *changlog;       /**< 更新日志 */
+
+@property (nonatomic, copy  ) NSString *title;
+@property (nonatomic, copy  ) NSString *desc;
+@property (nonatomic, copy  ) NSString *image;
 
 @end
