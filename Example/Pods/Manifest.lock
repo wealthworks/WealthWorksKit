@@ -1,0 +1,16 @@
+PODS:
+  - WealthWorksKit (0.1.0)
+
+DEPENDENCIES:
+  - WealthWorksKit (from `../`)
+
+EXTERNAL SOURCES:
+  WealthWorksKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WealthWorksKit: 86ef2a1cb624f387a54c6daf0d15e20780d00860
+
+PODFILE CHECKSUM: 08ac7879046a4436a1cd86a08ecf4a48f5d58b76
+
+COCOAPODS: 1.0.1

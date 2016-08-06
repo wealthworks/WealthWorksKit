@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10A30585E4E712B4E5EFDD771FA37D48 /* Pods-WealthWorksKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 313A76F31D77DBD5005826996E2C1AFD /* Pods-WealthWorksKit_Example-dummy.m */; };
+		33CE40E31FE3B8F5C6E5E37DAA9E457D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		57C3BE3A6CB2520B123F3EB6AF090AB4 /* Pods-WealthWorksKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F288E83E58552570FDBEA14E24E6E2AC /* Pods-WealthWorksKit_Tests-dummy.m */; };
+		7C36E33B2AEB27A3121942D0D6B6477C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A85A27871AE7662510830A66744CD10D /* Pods-WealthWorksKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC638DFE4D691FBE6CEEAFDC6F4D9D9 /* Pods-WealthWorksKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9E206F8D3C5916FF91029A1EAC69D49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		BF0173117D2DB27A83A0D3C8851BC5D5 /* WealthWorksKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD51F41D08AC18D90C5CFE682C8FD5 /* WealthWorksKit-dummy.m */; };
+		D3D788E70DF248982227CF9293FB5B18 /* WealthWorksKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24FB31F1B135FB6ADF23BAD83503971C /* WealthWorksKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E68B284D754F2672E784332AB1403243 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8DB129AAB52EF1EEF125F16EFFB4AF /* ReplaceMe.m */; };
+		EFDA899A878E58084B27F17922EEE9CE /* Pods-WealthWorksKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01ACFCF36D00BE9AF83B77A5F107B47D /* Pods-WealthWorksKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECFE954124067E63DDD8F781F90B728B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 118C189F876029BA4D17C2FD52A8F4AD;
+			remoteInfo = WealthWorksKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01ACFCF36D00BE9AF83B77A5F107B47D /* Pods-WealthWorksKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WealthWorksKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		24FB31F1B135FB6ADF23BAD83503971C /* WealthWorksKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WealthWorksKit-umbrella.h"; sourceTree = "<group>"; };
+		313A76F31D77DBD5005826996E2C1AFD /* Pods-WealthWorksKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WealthWorksKit_Example-dummy.m"; sourceTree = "<group>"; };
+		3B5D0E4305E450575D28B6AABBF1243F /* WealthWorksKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WealthWorksKit.modulemap; sourceTree = "<group>"; };
+		3BDA99577BF366CBCFB2544887254454 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497361C4936C022E3488106748C86773 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497C0011035808A01DB80BADB9FB65FA /* Pods-WealthWorksKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WealthWorksKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6A8DB129AAB52EF1EEF125F16EFFB4AF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		81EC7D6E1FB26EFD84C9B048859B36E3 /* Pods-WealthWorksKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WealthWorksKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		826AADD1BBD3AB172FCCD73C241DE12F /* Pods-WealthWorksKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WealthWorksKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		86CBBDAFB80DA2195AFE2302349427CA /* Pods-WealthWorksKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WealthWorksKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		89BE7EB7439DEC61EB5C7399D0098A82 /* Pods_WealthWorksKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WealthWorksKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA88AEAA51E2728979977F92D60CF39 /* Pods-WealthWorksKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WealthWorksKit_Example.modulemap"; sourceTree = "<group>"; };
+		93173949CBB854BE1FD7480B5852C4B2 /* Pods-WealthWorksKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WealthWorksKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99C67EC05D955D43FC2028B21DE8A933 /* Pods-WealthWorksKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WealthWorksKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9AC638DFE4D691FBE6CEEAFDC6F4D9D9 /* Pods-WealthWorksKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WealthWorksKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A75CD64EDDC2D630521223BC0DF136C0 /* Pods_WealthWorksKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WealthWorksKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B278BA9D5DBA5C723E73A064AC7B1521 /* Pods-WealthWorksKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WealthWorksKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B2CD51F41D08AC18D90C5CFE682C8FD5 /* WealthWorksKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WealthWorksKit-dummy.m"; sourceTree = "<group>"; };
+		C37290CCE99D09C2099B711A2245AB5A /* WealthWorksKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WealthWorksKit.xcconfig; sourceTree = "<group>"; };
+		C55C99D672B69EBD7201FF98A1F2803B /* Pods-WealthWorksKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WealthWorksKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7D750383AE842EE55F8D1AF7B3DA650 /* Pods-WealthWorksKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WealthWorksKit_Tests.modulemap"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D21D6DABF6A4A7B7CB021FDD830F1874 /* Pods-WealthWorksKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WealthWorksKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		D83BE152E51496D0DA6D7177AA25AB9D /* Pods-WealthWorksKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WealthWorksKit_Example-resources.sh"; sourceTree = "<group>"; };
+		DCBAA14063878EAF24A082E717AA3FBF /* WealthWorksKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WealthWorksKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E432F2055095EC1C06A2E1F91C73887F /* WealthWorksKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WealthWorksKit-prefix.pch"; sourceTree = "<group>"; };
+		E525346EE18D5D5412FF41526846C415 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77B72C8DF8AEA9C7954C14CE84EF8A1 /* Pods-WealthWorksKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WealthWorksKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA9067C52AC0F4E7DFD127CC60897B21 /* Pods-WealthWorksKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WealthWorksKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F288E83E58552570FDBEA14E24E6E2AC /* Pods-WealthWorksKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WealthWorksKit_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86EEDB7152B5F026F60427780F72E5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E206F8D3C5916FF91029A1EAC69D49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7BEA6BF5D9C612A23D6E6446C58482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CE40E31FE3B8F5C6E5E37DAA9E457D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8CF6BAC6ADB80474231463C0A96145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C36E33B2AEB27A3121942D0D6B6477C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		129FFE04251077EF2896892BABA1A69B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BDA99577BF366CBCFB2544887254454 /* Info.plist */,
+				3B5D0E4305E450575D28B6AABBF1243F /* WealthWorksKit.modulemap */,
+				C37290CCE99D09C2099B711A2245AB5A /* WealthWorksKit.xcconfig */,
+				B2CD51F41D08AC18D90C5CFE682C8FD5 /* WealthWorksKit-dummy.m */,
+				E432F2055095EC1C06A2E1F91C73887F /* WealthWorksKit-prefix.pch */,
+				24FB31F1B135FB6ADF23BAD83503971C /* WealthWorksKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WealthWorksKit";
+			sourceTree = "<group>";
+		};
+		197F623AFBEF0FAEAD28CD259F490E74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89BE7EB7439DEC61EB5C7399D0098A82 /* Pods_WealthWorksKit_Example.framework */,
+				A75CD64EDDC2D630521223BC0DF136C0 /* Pods_WealthWorksKit_Tests.framework */,
+				DCBAA14063878EAF24A082E717AA3FBF /* WealthWorksKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E6A90EBF148DD38A23CFECF476FBD28 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEB5E2F4D809FC47A02C9CD7CFF59B35 /* Pods-WealthWorksKit_Example */,
+				9DD8A0320B374B0CE3618DE69CEC9C04 /* Pods-WealthWorksKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		344073F2CFF9E13F53B07CF4E2B7D9FC /* WealthWorksKit */ = {
+			isa = PBXGroup;
+			children = (
+				129FFE04251077EF2896892BABA1A69B /* Support Files */,
+				AEACDB4BEBC3A4E0BD32059D359218F5 /* WealthWorksKit */,
+			);
+			name = WealthWorksKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		444E78246D9187FAD91A9F75F5DA027B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				344073F2CFF9E13F53B07CF4E2B7D9FC /* WealthWorksKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				444E78246D9187FAD91A9F75F5DA027B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				197F623AFBEF0FAEAD28CD259F490E74 /* Products */,
+				2E6A90EBF148DD38A23CFECF476FBD28 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9DD8A0320B374B0CE3618DE69CEC9C04 /* Pods-WealthWorksKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				497361C4936C022E3488106748C86773 /* Info.plist */,
+				C7D750383AE842EE55F8D1AF7B3DA650 /* Pods-WealthWorksKit_Tests.modulemap */,
+				497C0011035808A01DB80BADB9FB65FA /* Pods-WealthWorksKit_Tests-acknowledgements.markdown */,
+				E77B72C8DF8AEA9C7954C14CE84EF8A1 /* Pods-WealthWorksKit_Tests-acknowledgements.plist */,
+				F288E83E58552570FDBEA14E24E6E2AC /* Pods-WealthWorksKit_Tests-dummy.m */,
+				B278BA9D5DBA5C723E73A064AC7B1521 /* Pods-WealthWorksKit_Tests-frameworks.sh */,
+				D21D6DABF6A4A7B7CB021FDD830F1874 /* Pods-WealthWorksKit_Tests-resources.sh */,
+				9AC638DFE4D691FBE6CEEAFDC6F4D9D9 /* Pods-WealthWorksKit_Tests-umbrella.h */,
+				C55C99D672B69EBD7201FF98A1F2803B /* Pods-WealthWorksKit_Tests.debug.xcconfig */,
+				93173949CBB854BE1FD7480B5852C4B2 /* Pods-WealthWorksKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-WealthWorksKit_Tests";
+			path = "Target Support Files/Pods-WealthWorksKit_Tests";
+			sourceTree = "<group>";
+		};
+		AEACDB4BEBC3A4E0BD32059D359218F5 /* WealthWorksKit */ = {
+			isa = PBXGroup;
+			children = (
+				EA4AF71B7FC2A06171D6AB2257C47A66 /* Classes */,
+			);
+			path = WealthWorksKit;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEB5E2F4D809FC47A02C9CD7CFF59B35 /* Pods-WealthWorksKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E525346EE18D5D5412FF41526846C415 /* Info.plist */,
+				8CA88AEAA51E2728979977F92D60CF39 /* Pods-WealthWorksKit_Example.modulemap */,
+				81EC7D6E1FB26EFD84C9B048859B36E3 /* Pods-WealthWorksKit_Example-acknowledgements.markdown */,
+				86CBBDAFB80DA2195AFE2302349427CA /* Pods-WealthWorksKit_Example-acknowledgements.plist */,
+				313A76F31D77DBD5005826996E2C1AFD /* Pods-WealthWorksKit_Example-dummy.m */,
+				826AADD1BBD3AB172FCCD73C241DE12F /* Pods-WealthWorksKit_Example-frameworks.sh */,
+				D83BE152E51496D0DA6D7177AA25AB9D /* Pods-WealthWorksKit_Example-resources.sh */,
+				01ACFCF36D00BE9AF83B77A5F107B47D /* Pods-WealthWorksKit_Example-umbrella.h */,
+				99C67EC05D955D43FC2028B21DE8A933 /* Pods-WealthWorksKit_Example.debug.xcconfig */,
+				EA9067C52AC0F4E7DFD127CC60897B21 /* Pods-WealthWorksKit_Example.release.xcconfig */,
+			);
+			name = "Pods-WealthWorksKit_Example";
+			path = "Target Support Files/Pods-WealthWorksKit_Example";
+			sourceTree = "<group>";
+		};
+		EA4AF71B7FC2A06171D6AB2257C47A66 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6A8DB129AAB52EF1EEF125F16EFFB4AF /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00339A61BF4D6B38ADE1B682A708030D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D788E70DF248982227CF9293FB5B18 /* WealthWorksKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929ED37BC4968F0816CA74C54FDFD816 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDA899A878E58084B27F17922EEE9CE /* Pods-WealthWorksKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA8AEDEBCC35D54E883EF38EB1B2202 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85A27871AE7662510830A66744CD10D /* Pods-WealthWorksKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C27434DDBB32DEA235D8A6E30B90BF7 /* Pods-WealthWorksKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68C9B9125B6AC3F1019941C4D9950925 /* Build configuration list for PBXNativeTarget "Pods-WealthWorksKit_Example" */;
+			buildPhases = (
+				B5A3125ADF32BA709A75676BBA6DEA72 /* Sources */,
+				CB8CF6BAC6ADB80474231463C0A96145 /* Frameworks */,
+				929ED37BC4968F0816CA74C54FDFD816 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA88EED93383F363926E373B31EBDB34 /* PBXTargetDependency */,
+			);
+			name = "Pods-WealthWorksKit_Example";
+			productName = "Pods-WealthWorksKit_Example";
+			productReference = 89BE7EB7439DEC61EB5C7399D0098A82 /* Pods_WealthWorksKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		118C189F876029BA4D17C2FD52A8F4AD /* WealthWorksKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D283918EEFF442DFA1D5A98870C1E41 /* Build configuration list for PBXNativeTarget "WealthWorksKit" */;
+			buildPhases = (
+				21D5337A51F9933982713E4649D13BB9 /* Sources */,
+				86EEDB7152B5F026F60427780F72E5F8 /* Frameworks */,
+				00339A61BF4D6B38ADE1B682A708030D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WealthWorksKit;
+			productName = WealthWorksKit;
+			productReference = DCBAA14063878EAF24A082E717AA3FBF /* WealthWorksKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		635CDD237F739CF75811F550572A4E76 /* Pods-WealthWorksKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9186B0C7F9D4C40049D4713F39C7A5B5 /* Build configuration list for PBXNativeTarget "Pods-WealthWorksKit_Tests" */;
+			buildPhases = (
+				5E10073F11CA2E503ADE5B631E660CC0 /* Sources */,
+				9D7BEA6BF5D9C612A23D6E6446C58482 /* Frameworks */,
+				BBA8AEDEBCC35D54E883EF38EB1B2202 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WealthWorksKit_Tests";
+			productName = "Pods-WealthWorksKit_Tests";
+			productReference = A75CD64EDDC2D630521223BC0DF136C0 /* Pods_WealthWorksKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 197F623AFBEF0FAEAD28CD259F490E74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C27434DDBB32DEA235D8A6E30B90BF7 /* Pods-WealthWorksKit_Example */,
+				635CDD237F739CF75811F550572A4E76 /* Pods-WealthWorksKit_Tests */,
+				118C189F876029BA4D17C2FD52A8F4AD /* WealthWorksKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21D5337A51F9933982713E4649D13BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68B284D754F2672E784332AB1403243 /* ReplaceMe.m in Sources */,
+				BF0173117D2DB27A83A0D3C8851BC5D5 /* WealthWorksKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E10073F11CA2E503ADE5B631E660CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C3BE3A6CB2520B123F3EB6AF090AB4 /* Pods-WealthWorksKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A3125ADF32BA709A75676BBA6DEA72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A30585E4E712B4E5EFDD771FA37D48 /* Pods-WealthWorksKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA88EED93383F363926E373B31EBDB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WealthWorksKit;
+			target = 118C189F876029BA4D17C2FD52A8F4AD /* WealthWorksKit */;
+			targetProxy = ECFE954124067E63DDD8F781F90B728B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72F05160AB7324868FF677B4E0E327B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37290CCE99D09C2099B711A2245AB5A /* WealthWorksKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WealthWorksKit/WealthWorksKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WealthWorksKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WealthWorksKit/WealthWorksKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WealthWorksKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		785AFC79F138A5D30FF679746E4B4522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA9067C52AC0F4E7DFD127CC60897B21 /* Pods-WealthWorksKit_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WealthWorksKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WealthWorksKit_Example/Pods-WealthWorksKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WealthWorksKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C3493D31A18F60F80619ED448B6F02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37290CCE99D09C2099B711A2245AB5A /* WealthWorksKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WealthWorksKit/WealthWorksKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WealthWorksKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WealthWorksKit/WealthWorksKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WealthWorksKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C28CA619A8369DC69B5BE8F68D05BD7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93173949CBB854BE1FD7480B5852C4B2 /* Pods-WealthWorksKit_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WealthWorksKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WealthWorksKit_Tests/Pods-WealthWorksKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WealthWorksKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E1CA1CECE3E9E50D1A622FABC8C87A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C67EC05D955D43FC2028B21DE8A933 /* Pods-WealthWorksKit_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WealthWorksKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WealthWorksKit_Example/Pods-WealthWorksKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WealthWorksKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E29EAD8C5B04A52D436AB8F1220452E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55C99D672B69EBD7201FF98A1F2803B /* Pods-WealthWorksKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WealthWorksKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WealthWorksKit_Tests/Pods-WealthWorksKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WealthWorksKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D283918EEFF442DFA1D5A98870C1E41 /* Build configuration list for PBXNativeTarget "WealthWorksKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3493D31A18F60F80619ED448B6F02B /* Debug */,
+				72F05160AB7324868FF677B4E0E327B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68C9B9125B6AC3F1019941C4D9950925 /* Build configuration list for PBXNativeTarget "Pods-WealthWorksKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CA1CECE3E9E50D1A622FABC8C87A8F /* Debug */,
+				785AFC79F138A5D30FF679746E4B4522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9186B0C7F9D4C40049D4713F39C7A5B5 /* Build configuration list for PBXNativeTarget "Pods-WealthWorksKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29EAD8C5B04A52D436AB8F1220452E1 /* Debug */,
+				C28CA619A8369DC69B5BE8F68D05BD7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
