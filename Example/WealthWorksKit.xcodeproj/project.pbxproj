@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2315680CB2B5EAA57966A1D4 /* Pods_WealthWorksKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD67FF1C0A6E08C6B3F3FEB /* Pods_WealthWorksKit_Tests.framework */; };
+		343D57EA1D55C11F00BD85B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343D57E91D55C11F00BD85B8 /* LaunchScreen.storyboard */; };
+		343D57EF1D55C41A00BD85B8 /* WWKTestNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 343D57EE1D55C41A00BD85B8 /* WWKTestNavigator.m */; };
+		343D57F21D55C52200BD85B8 /* WWKTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 343D57F11D55C52200BD85B8 /* WWKTestViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,6 +40,12 @@
 
 /* Begin PBXFileReference section */
 		1DD87451EFFF077DA62DD9A9 /* Pods_WealthWorksKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WealthWorksKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		343D57E91D55C11F00BD85B8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		343D57EC1D55C3ED00BD85B8 /* WWKTestNavigationDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWKTestNavigationDefine.h; sourceTree = "<group>"; };
+		343D57ED1D55C41A00BD85B8 /* WWKTestNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWKTestNavigator.h; sourceTree = "<group>"; };
+		343D57EE1D55C41A00BD85B8 /* WWKTestNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWKTestNavigator.m; sourceTree = "<group>"; };
+		343D57F01D55C52200BD85B8 /* WWKTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWKTestViewController.h; sourceTree = "<group>"; };
+		343D57F11D55C52200BD85B8 /* WWKTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWKTestViewController.m; sourceTree = "<group>"; };
 		54B9A47F9757C0A019382B55 /* Pods-WealthWorksKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WealthWorksKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WealthWorksKit_Tests/Pods-WealthWorksKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WealthWorksKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WealthWorksKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -104,6 +113,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		343D57EB1D55C33600BD85B8 /* TestNavigator */ = {
+			isa = PBXGroup;
+			children = (
+				343D57EC1D55C3ED00BD85B8 /* WWKTestNavigationDefine.h */,
+				343D57ED1D55C41A00BD85B8 /* WWKTestNavigator.h */,
+				343D57EE1D55C41A00BD85B8 /* WWKTestNavigator.m */,
+				343D57F01D55C52200BD85B8 /* WWKTestViewController.h */,
+				343D57F11D55C52200BD85B8 /* WWKTestViewController.m */,
+			);
+			path = TestNavigator;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -141,13 +162,15 @@
 		6003F593195388D20070C39A /* Example for WealthWorksKit */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* WWKAppDelegate.h */,
-				6003F59D195388D20070C39A /* WWKAppDelegate.m */,
+				343D57EB1D55C33600BD85B8 /* TestNavigator */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* WWKViewController.h */,
 				6003F5A6195388D20070C39A /* WWKViewController.m */,
+				6003F59C195388D20070C39A /* WWKAppDelegate.h */,
+				6003F59D195388D20070C39A /* WWKAppDelegate.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				343D57E91D55C11F00BD85B8 /* LaunchScreen.storyboard */,
 			);
 			name = "Example for WealthWorksKit";
 			path = WealthWorksKit;
@@ -277,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				343D57EA1D55C11F00BD85B8 /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -391,6 +415,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* WWKAppDelegate.m in Sources */,
+				343D57EF1D55C41A00BD85B8 /* WWKTestNavigator.m in Sources */,
+				343D57F21D55C52200BD85B8 /* WWKTestViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* WWKViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -512,13 +538,14 @@
 			baseConfigurationReference = 9C471BEA741FD88047FEB14E /* Pods-WealthWorksKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WealthWorksKit/WealthWorksKit-Prefix.pch";
 				INFOPLIST_FILE = "WealthWorksKit/WealthWorksKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -528,13 +555,14 @@
 			baseConfigurationReference = F7FA109CD8998594A3CA9864 /* Pods-WealthWorksKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WealthWorksKit/WealthWorksKit-Prefix.pch";
 				INFOPLIST_FILE = "WealthWorksKit/WealthWorksKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -7,6 +7,7 @@
 //
 
 #import "WWKViewController.h"
+#import "WWKTestNavigationDefine.h"
 
 @interface WWKViewController ()
 
@@ -17,13 +18,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
+- (IBAction)jumpToOtherController:(id)sender {
+    WWKURLNavigatorAction *action = [WWKURLNavigatorAction actionWithURLPath:kWWKTestViewController];
+    
+    NSDictionary *params = @{@"param1" : @"123", @"param2" : @"abc"};
+    [action applyQuery:params];
+    
+    [[WWKURLNavigator navigator] openURLAction:action];
+}
+
+- (void)testCommonService
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [WWKCommonService checkAppUpdateWithSuccess:^(NSURLSessionDataTask *task, WWKAppUpdateInfo *appUpdateInfo) {
+    } failure:^(NSURLSessionDataTask *task, NSError *error) {
+    }];
 }
 
 @end

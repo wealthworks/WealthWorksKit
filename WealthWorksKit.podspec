@@ -1,42 +1,32 @@
-#
-# Be sure to run `pod lib lint WealthWorksKit.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
+
   s.name             = 'WealthWorksKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of WealthWorksKit.'
+  s.version          = '1.0.0'
+  s.summary          = 'Wealth Works Co., Ltd.'
+  s.description      = '她理财 好规划 Timi时光记账 基金豆'
+  s.homepage         = 'https://github.com/wealthworks/WealthWorksKit'
+  s.author           = { '郭亚伦' => 'guoyalun@talicai.com' }
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/WealthWorksKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '张建磊' => 'zhangjianlei@talicai.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/WealthWorksKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.license          = { :type => 'MIT', :file => 'LICENSE' }
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'WealthWorksKit/Classes/**/*'
-  
+  s.source = { :git => 'https://github.com/wealthworks/WealthWorksKit.git' }
+
+  s.source_files = 'WealthWorksKit/Classes/**/*.{h,m}'
+  s.prefix_header_file = "WealthWorksKit/Classes/PrefixHeader.pch"
+
+  s.frameworks = 'AdSupport'
+
+  s.dependency 'FCUUID'
+  s.dependency 'AFNetworking', '~> 3.0'
+  s.dependency 'MJExtension'
+
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+
   # s.resource_bundles = {
   #   'WealthWorksKit' => ['WealthWorksKit/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
