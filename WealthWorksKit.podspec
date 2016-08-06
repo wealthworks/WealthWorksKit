@@ -1,56 +1,58 @@
 Pod::Spec.new do |s|
 
-	s.name         = "WealthWorksKit"
-	s.version      = "1.0.1"
-	s.summary      = "Wealth Works Co., Ltd."
-	s.description  = "她理财 好规划 Timi时光记账 基金豆"
-	s.homepage     = "https://github.com/wealthworks/WealthWorksKit"
-	s.author       = { "郭亚伦" => "guoyalun@talicai.com" }
+  s.name             = 'WealthWorksKit'
+  s.version          = '2.0.0'
+  s.summary          = 'Wealth Works Co., Ltd.'
+  s.description      = '她理财 好规划 Timi时光记账 基金豆'
+  s.homepage         = 'https://github.com/wealthworks/WealthWorksKit'
+  s.author           = { '郭亚伦' => 'guoyalun@talicai.com' }
 
-	# s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-	# s.license      = "MIT"
-	# s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # s.screenshots    = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  # s.license        = { :type => 'MIT', :file => 'LICENSE' }
 
-	s.platform     = :ios
-	# s.platform     = :ios, "7.0"
+  s.ios.deployment_target = '8.0'
+  s.requires_arc = true
 
-	#  When using multiple platforms
-	# s.ios.deployment_target = "5.0"
-	# s.osx.deployment_target = "10.7"
-	# s.watchos.deployment_target = "2.0"
-	# s.tvos.deployment_target = "9.0"
+  s.source = { :git => 'https://github.com/wealthworks/WealthWorksKit.git' }
 
-	# s.source       = { :git => "git@github.com:JianLeiErRan/WealthWorksKit.git", :submodules => true }
-	s.source       = { :git => "git@github.com:wealthworks/WealthWorksKit.git", :submodules => true }
-	s.source_files  = "WealthWorksKit/WealthWorksKit.h"
-	# s.exclude_files = "Classes/Exclude"
-	s.public_header_files = "WealthWorksKit/WealthWorksKit.h"
-	s.prefix_header_file = "WealthWorksKit/PrefixHeader.pch"
+  s.source_files        = 'WealthWorksKit/Classes/WealthWorksKit.h'
+  s.public_header_files = 'WealthWorksKit/Classes/WealthWorksKit.h'
+  s.prefix_header_file  = 'WealthWorksKit/Classes/PrefixHeader.pch'
 
-	# s.resource  = "icon.png"
-	# s.resources = "Resources/*.png"
+  s.frameworks = 'UIKit'
 
-	# s.framework  = "SomeFramework"
-	s.frameworks = "UIKit"
+  s.dependency 'MJExtension'
 
-	# s.library   = "iconv"
-	# s.libraries = "iconv", "xml2"
+  # s.resource_bundles = {
+  #   'WealthWorksKit' => ['WealthWorksKit/Assets/*.png']
+  # }
 
-	s.requires_arc = true
+  s.subspec 'Utils' do |ss|
+    ss.source_files        = 'WealthWorksKit/Classes/Utils/*.{h,m}'
+    ss.public_header_files = 'WealthWorksKit/Classes/Utils/*.h'
+    ss.frameworks          = 'AdSupport'
+    ss.dependency            'FCUUID'
+  end
 
-	# s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-	# s.dependency "FCUUID"
+  s.subspec 'Network' do |ss|
+    ss.source_files        = 'WealthWorksKit/Classes/Network/*.{h,m}'
+    ss.public_header_files = 'WealthWorksKit/Classes/Network/*.h'
+    ss.dependency            'AFNetworking', '~> 3.0'
+  end
 
-	s.subspec 'Utils' do |ss|
-		ss.source_files = 'WealthWorksKit/Utils/*.{h,m}'
-		ss.public_header_files = 'WealthWorksKit/Utils/*.h'
-		ss.frameworks = "AdSupport"
-		ss.dependency "FCUUID"
-	end
+  s.subspec 'Navigator' do |ss|
+    ss.source_files        = 'WealthWorksKit/Classes/Navigator/*.{h,m}'
+    ss.public_header_files = 'WealthWorksKit/Classes/Navigator/*.h'
+  end
 
-	s.subspec 'Network' do |ss|
-		ss.source_files = 'WealthWorksKit/Network/*.{h,m}'
-		ss.public_header_files = 'WealthWorksKit/Network/*.h'
-	end
+  s.subspec 'NSStringCategories' do |ss|
+    ss.source_files        = 'WealthWorksKit/Classes/NSStringCategories/*.{h,m}'
+    ss.public_header_files = 'WealthWorksKit/Classes/NSStringCategories/*.h'
+  end
+
+  s.subspec 'UIApplicationCategories' do |ss|
+    ss.source_files        = 'WealthWorksKit/Classes/UIApplicationCategories/*.{h,m}'
+    ss.public_header_files = 'WealthWorksKit/Classes/UIApplicationCategories/*.h'
+  end
 
 end

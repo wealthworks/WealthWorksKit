@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WealthWorksKit_Example' do
+  pod 'WealthWorksKit', :path => '../'
+
+  target 'WealthWorksKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
