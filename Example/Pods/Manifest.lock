@@ -18,8 +18,23 @@ PODS:
     - UICKeyChainStore (~> 2.1.0)
   - MJExtension (3.0.13)
   - UICKeyChainStore (2.1.0)
-  - WealthWorksKit (1.0.0):
+  - WealthWorksKit (2.0.0):
+    - MJExtension
+    - WealthWorksKit/Navigator (= 2.0.0)
+    - WealthWorksKit/Network (= 2.0.0)
+    - WealthWorksKit/NSStringCategories (= 2.0.0)
+    - WealthWorksKit/UIApplicationCategories (= 2.0.0)
+    - WealthWorksKit/Utils (= 2.0.0)
+  - WealthWorksKit/Navigator (2.0.0):
+    - MJExtension
+  - WealthWorksKit/Network (2.0.0):
     - AFNetworking (~> 3.0)
+    - MJExtension
+  - WealthWorksKit/NSStringCategories (2.0.0):
+    - MJExtension
+  - WealthWorksKit/UIApplicationCategories (2.0.0):
+    - MJExtension
+  - WealthWorksKit/Utils (2.0.0):
     - FCUUID
     - MJExtension
 
@@ -28,14 +43,14 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   WealthWorksKit:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   FCUUID: 9bfe031d35b7c221a7c66156a0af45d4eb49c3b6
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   UICKeyChainStore: f1cbd42216a113f0165de1e733e62905b8823432
-  WealthWorksKit: 025faf78d7beb54f2ac10e88d83cd92827aeff96
+  WealthWorksKit: 5dd714cb4f35b17cd847469ca2241fde814b3b07
 
 PODFILE CHECKSUM: 08ac7879046a4436a1cd86a08ecf4a48f5d58b76
 

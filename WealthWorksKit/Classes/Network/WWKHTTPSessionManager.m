@@ -9,6 +9,8 @@
 #import "WWKHTTPSessionManager.h"
 
 static NSString * const kWWKBaseURL = @"http://c.lcgc.pub/";
+//static NSString * const kWWKBaseURL = @"http://192.168.8.21:33000/";
+
 
 @implementation WWKHTTPSessionManager
 
