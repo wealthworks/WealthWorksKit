@@ -21,9 +21,14 @@ typedef NS_ENUM(NSUInteger,WWKTrackAction) {
     WWKTrackActionLogout    = 6
 };
 
+//static NSString * const kAppTrackingHost = @"http://192.168.10.115:33000/";
+//static NSString * const kAppUpdateHost = @"http://192.168.8.21:34000/";
 
-static NSString * const kSendUserMetaDataURL = @"/v1/app";
-static NSString * const kCheckAppUpdateURL   = @"/v1/update/check";
+static NSString * const kAppTrackingHost = @"http://c.lcgc.pub/";
+static NSString * const kAppUpdateHost = @"http://v.lcgc.pub/";
+
+static NSString * const kAppTrackingURL = @"/v1/app";
+static NSString * const kAppUpdateURL   = @"/v1/update/check";
 
 static NSString * const kIdentifierTalicai  = @"com.talicai.TalicaiCommunity";
 static NSString * const kIdentifierTimi     = @"com.talicai.billstool";
@@ -139,7 +144,7 @@ static WWKTrackKit *instance = nil;
 
 - (void)checkAppUpdateWithSuccess:(void (^)(WWKAppUpdateInfo *appUpdateInfo))success {
     
-    WWKHTTPSessionManager *manager = [WWKHTTPSessionManager wwk_managerWithBaseURL:@"http://192.168.8.21:34000/"];
+    WWKHTTPSessionManager *manager = [WWKHTTPSessionManager wwk_managerWithBaseURL:kAppUpdateHost];
     NSDictionary *params = @{
                              @"pkg_name": [WWKBundle bundleID],
                              @"platform": @(2), // 1=android, 2=iOS, 3=other
@@ -148,7 +153,7 @@ static WWKTrackKit *instance = nil;
                              };
     
     WWKLogPARAMS(params);
-    [manager wwk_GET:kCheckAppUpdateURL parameters:params success:^(NSURLSessionDataTask *task, NSDictionary *responseObject) {
+    [manager wwk_GET:kAppUpdateURL parameters:params success:^(NSURLSessionDataTask *task, NSDictionary *responseObject) {
         WWKLogSUCCESS(responseObject);
         if (!success) return;
         WWKAppUpdateInfo *appUpdateInfo = [WWKAppUpdateInfo mj_objectWithKeyValues:responseObject[@"data"]];
@@ -160,7 +165,7 @@ static WWKTrackKit *instance = nil;
 
 #pragma mark - private
 - (void)sendRequestWithParameters:(NSDictionary *)parameters {
-    WWKHTTPSessionManager *manager = [WWKHTTPSessionManager wwk_manager];
+    WWKHTTPSessionManager *manager = [WWKHTTPSessionManager wwk_managerWithBaseURL:kAppTrackingHost];
     
     long long timestamp = (long long )[[NSDate date] timeIntervalSince1970]*1000;
     NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithDictionary: @{  @"os"        : @(2), // 1=android, 2=iOS, 3=other
@@ -179,7 +184,7 @@ static WWKTrackKit *instance = nil;
     [dict addEntriesFromDictionary:parameters];
     
     WWKLogPARAMS(parameters);
-    [manager GET:kSendUserMetaDataURL parameters:dict progress:nil success:^(NSURLSessionDataTask *task, NSDictionary *responseObject) {
+    [manager GET:kAppTrackingURL parameters:dict progress:nil success:^(NSURLSessionDataTask *task, NSDictionary *responseObject) {
         WWKLogSUCCESS(responseObject);
         return;
     } failure:^(NSURLSessionDataTask *task, NSError *error) {

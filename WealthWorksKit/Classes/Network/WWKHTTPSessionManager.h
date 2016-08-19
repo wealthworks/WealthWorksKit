@@ -18,7 +18,6 @@
 
 @interface WWKHTTPSessionManager : AFHTTPSessionManager
 
-+ (instancetype)wwk_manager;
 + (instancetype)wwk_managerWithBaseURL:(NSString *)baseURL;
 
 - (NSURLSessionDataTask *)wwk_GET:(NSString *)URLString
