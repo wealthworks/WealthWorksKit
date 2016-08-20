@@ -46,10 +46,10 @@
     
     [[WWKTrackKit shareInstance] userDidLoginWithUserId:@"1000"];
     [[WWKTrackKit shareInstance] userDidRegistWithUserId:@"1000"];
-    [[WWKTrackKit shareInstance] userDidLogoutWithUserId:@"110010"];
+    [[WWKTrackKit shareInstance] userDidLogoutWithUserId:@"1000"];
     
-    [[WWKTrackKit shareInstance] userDidPurchase:@"1001" product:@"1" shares:10000 cost:2000 status:1];
-    [[WWKTrackKit shareInstance] userDidRedeem:@"1001" product:@"1" shares:10000 cost:2000 status:1];
+    [[WWKTrackKit shareInstance] userDidPurchase:@"1000" product:@"1" shares:10000 cost:2000 status:1];
+    [[WWKTrackKit shareInstance] userDidRedeem:@"1000" product:@"1" shares:10000 cost:2000 status:1];
 
 
     

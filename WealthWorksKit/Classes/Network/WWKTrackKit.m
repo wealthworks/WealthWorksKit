@@ -14,8 +14,8 @@
 
 typedef NS_ENUM(NSUInteger,WWKTrackAction) {
     WWKTrackActionActivate  = 1,
-    WWKTrackActionLogin     = 2,
-    WWKTrackActionRegist    = 3,
+    WWKTrackActionRegist    = 2,
+    WWKTrackActionLogin     = 3,
     WWKTrackActionPurchase  = 4,
     WWKTrackActionRedeem    = 5,
     WWKTrackActionLogout    = 6

@@ -100,6 +100,8 @@
 		C89944179468ED1B60465662BFCAE0F0 /* UICKeyChainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = C8BCC05E398F44BE00336A6526D5F3F2 /* UICKeyChainStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAAF9AF73EB48DCAECE0518ADD16A198 /* WWKHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF5DBE86F68095FFCFB5D434661C6CE /* WWKHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAC483EF637FB4A2C2E2FC75BA631B87 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 333EACE54ADF967AAAF7380AC2A5996E /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB434E341D67FC13007E7F5B /* WWKFormData.m in Sources */ = {isa = PBXBuildFile; fileRef = CB434E321D67FC13007E7F5B /* WWKFormData.m */; };
+		CB434E351D67FE81007E7F5B /* WWKFormData.h in Headers */ = {isa = PBXBuildFile; fileRef = CB434E311D67FC13007E7F5B /* WWKFormData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBE63803A9E627929E76CBD11DA70A73 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8CA80ABB30B9803C38BE772F25132F /* MJFoundation.m */; };
 		CFA8D6B529A0EBFF0316F2629AB2556E /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = AC61D9730BDE1E570DCBE9FFC906E927 /* AFImageDownloader.m */; };
 		D619A04F7C141AB6208AF1D49504F513 /* Pods-WealthWorksKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 313A76F31D77DBD5005826996E2C1AFD /* Pods-WealthWorksKit_Example-dummy.m */; };
@@ -321,6 +323,8 @@
 		C7D750383AE842EE55F8D1AF7B3DA650 /* Pods-WealthWorksKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WealthWorksKit_Tests.modulemap"; sourceTree = "<group>"; };
 		C8BCC05E398F44BE00336A6526D5F3F2 /* UICKeyChainStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UICKeyChainStore.h; path = Lib/UICKeyChainStore/UICKeyChainStore.h; sourceTree = "<group>"; };
 		C99AC18C4DC6A4E91FF6AA19D87E4072 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB434E311D67FC13007E7F5B /* WWKFormData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWKFormData.h; sourceTree = "<group>"; };
+		CB434E321D67FC13007E7F5B /* WWKFormData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWKFormData.m; sourceTree = "<group>"; };
 		CE722EC5950E8909B0959335E87D642F /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
 		D088FAB617D78069A1C02D26B052E4F6 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		D0AD45C34C5F6E6C687220D19E265968 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -436,6 +440,8 @@
 				D3929FAE3481F20C064EAB4576C3194E /* WWKTrackKit.m */,
 				8AF5DBE86F68095FFCFB5D434661C6CE /* WWKHTTPSessionManager.h */,
 				BCA1090756E6F3FA7C40C77243CA746A /* WWKHTTPSessionManager.m */,
+				CB434E311D67FC13007E7F5B /* WWKFormData.h */,
+				CB434E321D67FC13007E7F5B /* WWKFormData.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -1044,6 +1050,7 @@
 				D9F4E833E37B611B432F6B5D7072DDA2 /* UIProgressView+AFNetworking.h in Headers */,
 				C6354FEC7728A4C86DAD8092509BA7D4 /* UIRefreshControl+AFNetworking.h in Headers */,
 				AE2A07407FB50BA249984DC0620E84C0 /* UIWebView+AFNetworking.h in Headers */,
+				CB434E351D67FE81007E7F5B /* WWKFormData.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1243,6 +1250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F1BC9BAFFEEABB1ABC7614DF0FC97D5 /* AFAutoPurgingImageCache.m in Sources */,
+				CB434E341D67FC13007E7F5B /* WWKFormData.m in Sources */,
 				E0D4045AC4C1B41917FCA23A042D18B2 /* AFHTTPSessionManager.m in Sources */,
 				CFA8D6B529A0EBFF0316F2629AB2556E /* AFImageDownloader.m in Sources */,
 				A6C6019D45BE62C61210A9CC619368EF /* AFNetworkActivityIndicatorManager.m in Sources */,

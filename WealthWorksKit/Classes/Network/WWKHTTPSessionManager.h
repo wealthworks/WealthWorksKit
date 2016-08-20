@@ -7,6 +7,7 @@
 //
 
 #import <AFNetworking/AFNetworking.h>
+#import "WWKFormData.h"
 
 
 #define WWKLogFUNCTION WWKLog(@"===== [WealthWorksKit] ===== %s =====", __FUNCTION__)
@@ -27,6 +28,12 @@
 
 - (NSURLSessionDataTask *)wwk_POST:(NSString *)URLString
                         parameters:(NSDictionary *)parameters
+                           success:(void (^)(NSURLSessionDataTask *task, NSDictionary *responseObject))success
+                           failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure;
+
+- (NSURLSessionDataTask *)wwk_POST:(NSString *)URLString
+                        parameters:(NSDictionary *)parameters
+                          formData:(WWKFormData *)imageData
                            success:(void (^)(NSURLSessionDataTask *task, NSDictionary *responseObject))success
                            failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure;
 
