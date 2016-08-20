@@ -12,6 +12,8 @@
 #import "UIApplication+UINavigationController.h"
 #import "WWKBundle.h"
 #import "WWKDevice.h"
+#import "WWKFormData.h"
+
 
 FOUNDATION_EXPORT double WealthWorksKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char WealthWorksKitVersionString[];

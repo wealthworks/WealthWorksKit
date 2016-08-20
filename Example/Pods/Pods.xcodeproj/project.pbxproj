@@ -101,7 +101,7 @@
 		CAAF9AF73EB48DCAECE0518ADD16A198 /* WWKHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF5DBE86F68095FFCFB5D434661C6CE /* WWKHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAC483EF637FB4A2C2E2FC75BA631B87 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 333EACE54ADF967AAAF7380AC2A5996E /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB434E341D67FC13007E7F5B /* WWKFormData.m in Sources */ = {isa = PBXBuildFile; fileRef = CB434E321D67FC13007E7F5B /* WWKFormData.m */; };
-		CB434E351D67FE81007E7F5B /* WWKFormData.h in Headers */ = {isa = PBXBuildFile; fileRef = CB434E311D67FC13007E7F5B /* WWKFormData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB434E361D684CC8007E7F5B /* WWKFormData.h in Headers */ = {isa = PBXBuildFile; fileRef = CB434E311D67FC13007E7F5B /* WWKFormData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBE63803A9E627929E76CBD11DA70A73 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8CA80ABB30B9803C38BE772F25132F /* MJFoundation.m */; };
 		CFA8D6B529A0EBFF0316F2629AB2556E /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = AC61D9730BDE1E570DCBE9FFC906E927 /* AFImageDownloader.m */; };
 		D619A04F7C141AB6208AF1D49504F513 /* Pods-WealthWorksKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 313A76F31D77DBD5005826996E2C1AFD /* Pods-WealthWorksKit_Example-dummy.m */; };
@@ -997,6 +997,7 @@
 				62BA3FF838E60E29FCC184000E47FF5A /* WWKURLNavigatorAction.h in Headers */,
 				DE6B52A4DC243FF69588DCA6F448F723 /* WWKURLNavigatorMap.h in Headers */,
 				F84EE2F7C19EC4A1E34983200EACE9B9 /* WWKURLNavigatorViewControllerProtocol.h in Headers */,
+				CB434E361D684CC8007E7F5B /* WWKFormData.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1050,7 +1051,6 @@
 				D9F4E833E37B611B432F6B5D7072DDA2 /* UIProgressView+AFNetworking.h in Headers */,
 				C6354FEC7728A4C86DAD8092509BA7D4 /* UIRefreshControl+AFNetworking.h in Headers */,
 				AE2A07407FB50BA249984DC0620E84C0 /* UIWebView+AFNetworking.h in Headers */,
-				CB434E351D67FE81007E7F5B /* WWKFormData.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

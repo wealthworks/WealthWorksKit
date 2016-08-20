@@ -118,12 +118,12 @@ static WWKTrackKit *instance = nil;
         return;
     }
     
-    [self sendRequestWithParameters:@{@"action" :   @(WWKTrackActionPurchase),
-                                      @"role"   :   userId,
-                                      @"target" :   productId,
-                                      @"shares" :   @(shares),
-                                      @"cost"   :   @(cost),
-                                      @"status" :   @(status)}];
+    [self sendRequestWithParameters:@{@"action"         :   @(WWKTrackActionPurchase),
+                                      @"role"           :   userId,
+                                      @"target"         :   productId,
+                                      @"shares"         :   @(shares),
+                                      @"cost"           :   @(cost),
+                                      @"trade_status"   :   @(status)}];
 
 }
 
@@ -133,12 +133,12 @@ static WWKTrackKit *instance = nil;
         return;
     }
     
-    [self sendRequestWithParameters:@{@"action" :   @(WWKTrackActionRedeem),
-                                      @"role"   :   userId,
-                                      @"target" :   productId,
-                                      @"shares" :   @(shares),
-                                      @"cost"   :   @(cost),
-                                      @"status" :   @(status)}];
+    [self sendRequestWithParameters:@{@"action"         :   @(WWKTrackActionRedeem),
+                                      @"role"           :   userId,
+                                      @"target"         :   productId,
+                                      @"shares"         :   @(shares),
+                                      @"cost"           :   @(cost),
+                                      @"trade_status"   :   @(status)}];
     
 }
 

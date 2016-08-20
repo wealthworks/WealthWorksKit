@@ -16,8 +16,8 @@ typedef NS_ENUM(NSUInteger, WWKAppKey) {
 };
 
 typedef NS_ENUM(NSUInteger, WWKTransactionState) {
-    WWKTransactionStateSuccess = 0,
-    WWKTransactionStateFailure = 1
+    WWKTransactionStateFailure = 0,
+    WWKTransactionStateSuccess = 1
 };
 
 
