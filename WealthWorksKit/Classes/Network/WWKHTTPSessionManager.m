@@ -27,12 +27,10 @@
         if (!successNumber || [successNumber boolValue]) {
             if (success) success(task, responseObject);
         } else {
-            NSNumber *codeNumber = responseObject[@"code"];
-            NSInteger code = codeNumber ? [codeNumber integerValue] : 0;
-            NSString *messageString = responseObject[@"message"];
-            NSString *message = messageString ? : @"";
-            
-            NSError *error = [NSError errorWithDomain:@"WWKErrorDomainAFNetworking" code:code userInfo:@{NSLocalizedDescriptionKey: message}];
+            NSError *error = [self getErrorMessage:responseObject];
+            if (!error) {
+                error = [NSError errorWithDomain:@"WWKErrorDomainAFNetworking" code:0 userInfo:@{NSLocalizedDescriptionKey: @"服务器错误"}];
+            }
             if (failure) failure(task, error);
         }
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
@@ -50,12 +48,12 @@
         if (!successNumber || [successNumber boolValue]) {
             if (success) success(task, responseObject);
         } else {
-            NSNumber *codeNumber = responseObject[@"code"];
-            NSInteger code = codeNumber ? [codeNumber integerValue] : 0;
-            NSString *messageString = responseObject[@"message"];
-            NSString *message = messageString ? : @"";
+        
+            NSError *error = [self getErrorMessage:responseObject];
+            if (!error) {
+                error = [NSError errorWithDomain:@"WWKErrorDomainAFNetworking" code:0 userInfo:@{NSLocalizedDescriptionKey: @"服务器错误"}];
+            }
             
-            NSError *error = [NSError errorWithDomain:@"WWKErrorDomainAFNetworking" code:code userInfo:@{NSLocalizedDescriptionKey: message}];
             if (failure) failure(task, error);
         }
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
@@ -80,12 +78,10 @@
         if (!successNumber || [successNumber boolValue]) {
             if (success) success(task, responseObject);
         } else {
-            NSNumber *codeNumber = responseObject[@"code"];
-            NSInteger code = codeNumber ? [codeNumber integerValue] : 0;
-            NSString *messageString = responseObject[@"message"];
-            NSString *message = messageString ? : @"";
-            
-            NSError *error = [NSError errorWithDomain:@"WWKErrorDomainAFNetworking" code:code userInfo:@{NSLocalizedDescriptionKey: message}];
+            NSError *error = [self getErrorMessage:responseObject];
+            if (!error) {
+                error = [NSError errorWithDomain:@"WWKErrorDomainAFNetworking" code:0 userInfo:@{NSLocalizedDescriptionKey: @"服务器错误"}];
+            }
             if (failure) failure(task, error);
         }
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
@@ -155,6 +151,9 @@
     
     if(errorMessage) {
         NSNumber *codeNumber = responseObject[@"code"];
+        if(!codeNumber) {
+            codeNumber = responseObject[@"errno"];
+        }
         NSError *error = [NSError errorWithDomain:@"WWKErrorDomainAFNetworking" code:[codeNumber integerValue] userInfo:@{NSLocalizedDescriptionKey: errorMessage}];
         return error;
     }
