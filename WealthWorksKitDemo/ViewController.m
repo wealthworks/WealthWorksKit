@@ -40,4 +40,10 @@
     [[WWKURLNavigator navigator] openURLAction:action];
 }
 
+- (IBAction)modelViewController:(id)sender {
+    WWKURLNavigatorAction *action = [WWKURLNavigatorAction actionWithURLPath:kTestModelViewController];
+    
+    [[WWKURLNavigator navigator] openURLAction:action];
+}
+
 @end

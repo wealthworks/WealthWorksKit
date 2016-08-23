@@ -22,16 +22,26 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="106" id="ZEn-Ia-aAO"/>
                                 </constraints>
-                                <state key="normal" title="跳转"/>
+                                <state key="normal" title="push"/>
                                 <connections>
                                     <action selector="jumpToOtherController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f31-qV-8oV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDi-o1-F6c">
+                                <rect key="frame" x="100" y="332" width="400" height="30"/>
+                                <state key="normal" title="model"/>
+                                <connections>
+                                    <action selector="modelViewController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DYI-Dj-xgU"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="3jp-cK-djm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AYl-Kl-Pbj"/>
+                            <constraint firstItem="oDi-o1-F6c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="B3X-Ok-klQ"/>
+                            <constraint firstItem="oDi-o1-F6c" firstAttribute="top" secondItem="3jp-cK-djm" secondAttribute="bottom" constant="50" id="WpB-LL-9x8"/>
                             <constraint firstItem="3jp-cK-djm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="232" id="dlU-uf-MOK"/>
+                            <constraint firstAttribute="trailing" secondItem="oDi-o1-F6c" secondAttribute="trailing" constant="100" id="mhT-BK-p0b"/>
                         </constraints>
                     </view>
                 </viewController>

@@ -36,6 +36,7 @@
 		AF4CEA591D3F7D130068139B /* NSString+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4CEA4D1D3F7D130068139B /* NSString+Compare.m */; };
 		AF4CEA5A1D3F7D130068139B /* UIApplication+UINavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = AF4CEA4F1D3F7D130068139B /* UIApplication+UINavigationController.h */; };
 		AF4CEA5B1D3F7D130068139B /* UIApplication+UINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4CEA501D3F7D130068139B /* UIApplication+UINavigationController.m */; };
+		AF71CE2B1D6BF286004F849F /* TestModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF71CE2A1D6BF286004F849F /* TestModelViewController.m */; };
 		AFA58ADB1D406EED00AA0FDC /* TestNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA58ADA1D406EED00AA0FDC /* TestNavigator.m */; };
 /* End PBXBuildFile section */
 
@@ -99,6 +100,8 @@
 		AF4CEA4D1D3F7D130068139B /* NSString+Compare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Compare.m"; sourceTree = "<group>"; };
 		AF4CEA4F1D3F7D130068139B /* UIApplication+UINavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+UINavigationController.h"; sourceTree = "<group>"; };
 		AF4CEA501D3F7D130068139B /* UIApplication+UINavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+UINavigationController.m"; sourceTree = "<group>"; };
+		AF71CE291D6BF286004F849F /* TestModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModelViewController.h; sourceTree = "<group>"; };
+		AF71CE2A1D6BF286004F849F /* TestModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModelViewController.m; sourceTree = "<group>"; };
 		AFA58AD81D406EED00AA0FDC /* TestNavigationDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNavigationDefine.h; sourceTree = "<group>"; };
 		AFA58AD91D406EED00AA0FDC /* TestNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNavigator.h; sourceTree = "<group>"; };
 		AFA58ADA1D406EED00AA0FDC /* TestNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNavigator.m; sourceTree = "<group>"; };
@@ -208,6 +211,8 @@
 				348BF5051D2F5B1800446FA4 /* ViewController.m */,
 				AF3352E01D3F87E8009CDA83 /* TestViewController.h */,
 				AF3352E11D3F87E8009CDA83 /* TestViewController.m */,
+				AF71CE291D6BF286004F849F /* TestModelViewController.h */,
+				AF71CE2A1D6BF286004F849F /* TestModelViewController.m */,
 				AFA58AD71D406EED00AA0FDC /* TestNavigator */,
 				348BF5071D2F5B1800446FA4 /* Main.storyboard */,
 				348BF50A1D2F5B1800446FA4 /* Assets.xcassets */,
@@ -450,6 +455,7 @@
 			files = (
 				348BF5061D2F5B1800446FA4 /* ViewController.m in Sources */,
 				348BF5031D2F5B1800446FA4 /* AppDelegate.m in Sources */,
+				AF71CE2B1D6BF286004F849F /* TestModelViewController.m in Sources */,
 				348BF5001D2F5B1800446FA4 /* main.m in Sources */,
 				AFA58ADB1D406EED00AA0FDC /* TestNavigator.m in Sources */,
 				AF3352E21D3F87E8009CDA83 /* TestViewController.m in Sources */,

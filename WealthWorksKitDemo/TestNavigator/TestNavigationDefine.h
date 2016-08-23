@@ -9,6 +9,7 @@
 #ifndef TestNavigationDefine_h
 #define TestNavigationDefine_h
 
-#define kTestViewController                               (@"jijindou://testViewController?")
+#define kTestViewController                                    (@"jijindou://testViewController?")
+#define kTestModelViewController                               (@"jijindou://testModelViewController?")
 
 #endif /* NavigationDefine_h */

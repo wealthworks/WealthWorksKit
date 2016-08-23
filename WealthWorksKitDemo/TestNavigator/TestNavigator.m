@@ -11,6 +11,7 @@
 #import "UIApplication+UINavigationController.h"
 #import "NSString+Compare.h"
 #import "TestViewController.h"
+#import "TestModelViewController.h"
 
 static NSString *const kServerUrlNeedLoginKey = @"needlogin=1";
 
@@ -37,6 +38,8 @@ static NSString *const kServerUrlNeedLoginKey = @"needlogin=1";
                                      toViewController:[TestViewController class]
                                       stoaryboardName:@"Main"];
     
+    [[WWKURLNavigator navigator].urlNavigatorMap from:kTestModelViewController
+                                toModelViewController:[TestModelViewController class]];
 }
 
 
