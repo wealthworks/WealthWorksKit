@@ -9,6 +9,7 @@
 #ifndef WWKTestNavigationDefine_h
 #define WWKTestNavigationDefine_h
 
-#define kWWKTestViewController (@"jijindou://testViewController?")
+#define kWWKTestViewController                          (@"jijindou://testViewController?")
+#define kTestModelViewController                        (@"jijindou://testModelViewController?")
 
 #endif /* WWKTestNavigationDefine_h */
