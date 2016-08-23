@@ -8,6 +8,7 @@
 
 #import "WWKTestNavigator.h"
 #import "WWKTestViewController.h"
+#import "WWKTestModelViewController.h"
 #import "WWKTestNavigationDefine.h"
 
 static NSString *const kServerUrlNeedLoginKey = @"needlogin=1";
@@ -30,6 +31,10 @@ static NSString *const kServerUrlNeedLoginKey = @"needlogin=1";
     [[WWKURLNavigator navigator].urlNavigatorMap from:kWWKTestViewController
                                      toViewController:[WWKTestViewController class]
                                       stoaryboardName:@"Main"];
+    
+    [[WWKURLNavigator navigator].urlNavigatorMap from:kTestModelViewController
+                                toModelViewController:[WWKTestModelViewController class]];
+
 }
 
 @end

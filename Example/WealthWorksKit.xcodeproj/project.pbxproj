@@ -26,6 +26,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		8504E23F19F8E626B43A7BAA /* Pods_WealthWorksKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD87451EFFF077DA62DD9A9 /* Pods_WealthWorksKit_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		AFBE0D271D6C9E0F00D4F3B2 /* WWKTestModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBE0D261D6C9E0F00D4F3B2 /* WWKTestModelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		966469BC496A56B98619FA21 /* WealthWorksKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WealthWorksKit.podspec; path = ../WealthWorksKit.podspec; sourceTree = "<group>"; };
 		9C471BEA741FD88047FEB14E /* Pods-WealthWorksKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WealthWorksKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WealthWorksKit_Example/Pods-WealthWorksKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AAD67FF1C0A6E08C6B3F3FEB /* Pods_WealthWorksKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WealthWorksKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFBE0D251D6C9E0F00D4F3B2 /* WWKTestModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWKTestModelViewController.h; sourceTree = "<group>"; };
+		AFBE0D261D6C9E0F00D4F3B2 /* WWKTestModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWKTestModelViewController.m; sourceTree = "<group>"; };
 		CCB56845572EFDD985CAAFA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F7FA109CD8998594A3CA9864 /* Pods-WealthWorksKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WealthWorksKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WealthWorksKit_Example/Pods-WealthWorksKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,6 +124,8 @@
 				343D57EE1D55C41A00BD85B8 /* WWKTestNavigator.m */,
 				343D57F01D55C52200BD85B8 /* WWKTestViewController.h */,
 				343D57F11D55C52200BD85B8 /* WWKTestViewController.m */,
+				AFBE0D251D6C9E0F00D4F3B2 /* WWKTestModelViewController.h */,
+				AFBE0D261D6C9E0F00D4F3B2 /* WWKTestModelViewController.m */,
 			);
 			path = TestNavigator;
 			sourceTree = "<group>";
@@ -416,6 +421,7 @@
 			files = (
 				6003F59E195388D20070C39A /* WWKAppDelegate.m in Sources */,
 				343D57EF1D55C41A00BD85B8 /* WWKTestNavigator.m in Sources */,
+				AFBE0D271D6C9E0F00D4F3B2 /* WWKTestModelViewController.m in Sources */,
 				343D57F21D55C52200BD85B8 /* WWKTestViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* WWKViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
