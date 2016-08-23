@@ -9,7 +9,7 @@
 
 @interface WWKURLNavigatorMap () {
     NSMutableDictionary *_normalURLMap;
-    NSMutableDictionary *_sharedURLMap;
+    NSMutableDictionary *_modelURLMap;
     NSMutableDictionary *_stoaryboardMap;
 }
 @end
@@ -20,7 +20,7 @@
     self = [super init];
     if (self) {
         _normalURLMap = [[NSMutableDictionary alloc] init];
-        _sharedURLMap = [[NSMutableDictionary alloc] init];
+        _modelURLMap = [[NSMutableDictionary alloc] init];
         _stoaryboardMap = [[NSMutableDictionary alloc] init];
     }
     return self;
@@ -34,11 +34,10 @@
     }
 }
 
-- (void)from:(NSString*)urlPath toSharedViewController:(Class)targetClass {
+- (void)from:(NSString*)urlPath toModelViewController:(Class)targetClass {
     if (!!urlPath && !!targetClass && !!targetClass) {
-        NSString *key = [urlPath lowercaseString];
-        [self removeMappingIfNeededForKey:key];
-        [_sharedURLMap setObject:targetClass forKey:key];//不区分大小写
+        [self removeMappingIfNeededForKey:urlPath];
+        [_modelURLMap setObject:targetClass forKey:urlPath];//不区分大小写
     }
 }
 
@@ -46,7 +45,7 @@
 
 - (void)removeMappingIfNeededForKey:(NSString *)key {
     [_normalURLMap removeObjectForKey:key];
-    [_sharedURLMap removeObjectForKey:key];
+    [_modelURLMap removeObjectForKey:key];
     [_stoaryboardMap removeObjectForKey:key];
 }
 
@@ -56,8 +55,8 @@
     return _normalURLMap;
 }
 
-- (NSDictionary *)sharedURLMap {
-    return _sharedURLMap;
+- (NSDictionary *)modelURLMap {
+    return _modelURLMap;
 }
 
 - (NSDictionary *)stoaryboardMap {

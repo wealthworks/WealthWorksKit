@@ -49,11 +49,11 @@
     Class vcClass = nil;
     
     //查找是否是一个已注册的pageURL
-    for (NSString *mappedLinkURLProtocol in _urlNavigatorMap.sharedURLMap) {
+    for (NSString *mappedLinkURLProtocol in _urlNavigatorMap.modelURLMap) {
         BOOL eq = [pageURL isEqualToStringIgnoreCase:mappedLinkURLProtocol];
         
         if (eq) {
-            vcClass = _urlNavigatorMap.sharedURLMap[mappedLinkURLProtocol];
+            vcClass = _urlNavigatorMap.modelURLMap[mappedLinkURLProtocol];
             break;
         }
     }
@@ -92,28 +92,26 @@
     } else {
         UIViewController<WWKURLNavigatorViewControllerProtocol> *vc = nil;
         
-        //查找将被打开的页是否为Shared VC
-        BOOL isVisible = NO;
-        vc = [self findVCFromSharedURLMapByAction:action isVisible:&isVisible];
         UINavigationController *nav = [[UIApplication sharedApplication] visibleNavigationController];
         if (!nav) {
-            WWKLog(@"%@无法打开Action %@ 对应的页面。", NSStringFromClass(self.class), action);
             return NO;
         }
         
-        if (!!vc && isVisible) {
-            [nav popToViewController:vc animated:action.needAnimatedTransition];
-            return YES;
-        } else if (!!vc && !isVisible) {
-            [nav pushViewController:vc animated:action.needAnimatedTransition];
+        //查找将被打开的页是否为Model VC
+        BOOL isVisible = NO;
+        vc = [self findVCFromModelURLMapByAction:action isVisible:&isVisible];
+        
+        if (!!vc) {
+            [nav presentViewController:vc animated:action.needAnimatedTransition completion:^{
+                
+            }];
             return YES;
         }
         
-        //查找将被打开的页是否为Normal VC
+        //查找将被打开的页是否为Push VC
         vc = [self findVCFromNormalURLMapByAction:action];
         
         if (!vc) {
-            WWKLog(@"%@无法打开Action %@ 对应的页面。", NSStringFromClass(self.class), action);
             return NO;
         }
         
@@ -123,18 +121,18 @@
     }
 }
 
-- (UIViewController<WWKURLNavigatorViewControllerProtocol> *)findVCFromSharedURLMapByAction:(WWKURLNavigatorAction *)action
+- (UIViewController<WWKURLNavigatorViewControllerProtocol> *)findVCFromModelURLMapByAction:(WWKURLNavigatorAction *)action
                                                                                  isVisible:(BOOL *)isVisible {
     *isVisible = NO;
     Class vcClass = nil;
     UIViewController<WWKURLNavigatorViewControllerProtocol> *vc = nil;
     NSString *toBeOpenLinkURLProtocol = [self composeLinkURLProtocolWithAction:action];
     
-    for (NSString *mappedLinkURLProtocol in _urlNavigatorMap.sharedURLMap) {
+    for (NSString *mappedLinkURLProtocol in _urlNavigatorMap.modelURLMap) {
         BOOL eq = [toBeOpenLinkURLProtocol isEqualToString:mappedLinkURLProtocol];
         
         if (eq) {
-            vcClass = _urlNavigatorMap.sharedURLMap[mappedLinkURLProtocol];
+            vcClass = _urlNavigatorMap.modelURLMap[mappedLinkURLProtocol];
             break;
         }
     }
@@ -152,15 +150,15 @@
         }
         
         if (!vc) {
-            if (![vcClass conformsToProtocol:@protocol(WWKURLNavigatorViewControllerProtocol)]) {
-                NSAssert(NO, @"需要被TSURLNavigator导航的UIViewController以及其子类必须要\
-                         实现TSURLNavigatorViewControllerProtocol。");
-            }
+            //            if (![vcClass conformsToProtocol:@protocol(TSURLNavigatorViewControllerProtocol)]) {
+            //                NSAssert(NO, @"需要被TSURLNavigator导航的UIViewController以及其子类必须要\
+            //                         实现TSURLNavigatorViewControllerProtocol。");
+            //            }
             
             NSDictionary *queryOfURLPath = [self queryOfURLPath:action.urlPath];
             NSMutableDictionary *query = [NSMutableDictionary dictionary];
             [query setValuesForKeysWithDictionary:queryOfURLPath];
-            [query setValuesForKeysWithDictionary:action.query];
+            [query setValuesForKeysWithDictionary:[action query]];
             
             vc = [[vcClass alloc] initWithNavigatorURL:[NSURL URLWithString:action.urlPath] query:query];
         }
