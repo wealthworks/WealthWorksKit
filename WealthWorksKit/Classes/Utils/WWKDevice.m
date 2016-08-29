@@ -8,7 +8,7 @@
 
 #import "WWKDevice.h"
 #import <AdSupport/AdSupport.h>
-#import <FCUUID/FCUUID.h>
+#import <OpenUDID/OpenUDID.h>
 
 #import <ifaddrs.h>
 #import <arpa/inet.h>
@@ -29,7 +29,8 @@
 
 + (NSString *)uuid
 {
-    return [FCUUID uuidForDevice];
+    NSString* openUDID = [OpenUDID value];
+    return openUDID;
 }
 
 + (NSString *)model

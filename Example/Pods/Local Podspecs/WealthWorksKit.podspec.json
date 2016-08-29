@@ -30,7 +30,7 @@
       "public_header_files": "WealthWorksKit/Classes/Utils/*.h",
       "frameworks": "AdSupport",
       "dependencies": {
-        "FCUUID": [
+        "OpenUDID": [
 
         ]
       }

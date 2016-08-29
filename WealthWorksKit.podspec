@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
     ss.source_files        = 'WealthWorksKit/Classes/Utils/*.{h,m}'
     ss.public_header_files = 'WealthWorksKit/Classes/Utils/*.h'
     ss.frameworks          = 'AdSupport'
-    ss.dependency            'FCUUID'
+    ss.dependency            'OpenUDID'
   end
 
   s.subspec 'Network' do |ss|
