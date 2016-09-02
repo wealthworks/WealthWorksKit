@@ -168,6 +168,10 @@ static WWKTrackKit *instance = nil;
     WWKHTTPSessionManager *manager = [WWKHTTPSessionManager wwk_managerWithBaseURL:kAppTrackingHost];
     
     long long timestamp = (long long )[[NSDate date] timeIntervalSince1970]*1000;
+    NSString *refer = [[NSUserDefaults standardUserDefaults] objectForKey:linkedme_link_key];
+    if (refer == nil) {
+        refer = @"";
+    }
     NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithDictionary: @{  @"os"        : @(2), // 1=android, 2=iOS, 3=other
                                                                                    @"osversion" : [WWKDevice systemVersion],
                                                                                    @"idfa"      : [WWKDevice IDFA],
@@ -179,7 +183,8 @@ static WWKTrackKit *instance = nil;
                                                                                    @"ip"        : [WWKDevice IPAddress],
                                                                                    @"site"      : @(self.appkey),
                                                                                    @"osname"    : @"iOS",
-                                                                                   @"timestamp" : @(timestamp)
+                                                                                   @"timestamp" : @(timestamp),
+                                                                                   @"refer"     : refer
                                                                                    }];
     [dict addEntriesFromDictionary:parameters];
     
