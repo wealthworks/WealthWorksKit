@@ -39,10 +39,13 @@ typedef NS_ENUM(NSUInteger, WWKTransactionState) {
  */
 + (void)startWithAppKey:(WWKAppKey)appkey;
 
+
 /**
  *  用户激活
+ *
+ *  @param refer 短链接
  */
-- (void)userDidActivate;
+- (void)userDidActivate:(nullable NSString *)refer;
 
 /**
  *  用户登录
