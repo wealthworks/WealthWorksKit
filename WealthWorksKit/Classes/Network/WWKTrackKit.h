@@ -21,10 +21,6 @@ typedef NS_ENUM(NSUInteger, WWKTransactionState) {
 };
 
 
-static NSString * const linkedme_link_key     = @"linkedme_link_key";
-
-
-
 @class WWKAppUpdateInfo;
 
 @interface WWKTrackKit : NSObject

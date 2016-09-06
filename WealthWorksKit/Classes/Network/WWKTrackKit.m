@@ -77,8 +77,14 @@ static WWKTrackKit *instance = nil;
 
 
 #pragma mark - public
-- (void)userDidActivate {
-    [self sendRequestWithParameters:@{@"action":@(WWKTrackActionActivate)}];
+- (void)userDidActivate:(nullable NSString *)refer {
+    
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    [params setObject:@(WWKTrackActionActivate) forKey:@"action"];
+    if (refer) {
+        [params setObject:refer forKey:@"refer"];
+    }
+    [self sendRequestWithParameters:params];
 }
 
 
@@ -168,10 +174,6 @@ static WWKTrackKit *instance = nil;
     WWKHTTPSessionManager *manager = [WWKHTTPSessionManager wwk_managerWithBaseURL:kAppTrackingHost];
     
     long long timestamp = (long long )[[NSDate date] timeIntervalSince1970]*1000;
-    NSString *refer = [[NSUserDefaults standardUserDefaults] objectForKey:linkedme_link_key];
-    if (refer == nil) {
-        refer = @"";
-    }
     NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithDictionary: @{  @"os"        : @(2), // 1=android, 2=iOS, 3=other
                                                                                    @"osversion" : [WWKDevice systemVersion],
                                                                                    @"idfa"      : [WWKDevice IDFA],
@@ -183,8 +185,7 @@ static WWKTrackKit *instance = nil;
                                                                                    @"ip"        : [WWKDevice IPAddress],
                                                                                    @"site"      : @(self.appkey),
                                                                                    @"osname"    : @"iOS",
-                                                                                   @"timestamp" : @(timestamp),
-                                                                                   @"refer"     : refer
+                                                                                   @"timestamp" : @(timestamp)
                                                                                    }];
     [dict addEntriesFromDictionary:parameters];
     
