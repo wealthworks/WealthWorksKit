@@ -24,8 +24,8 @@ typedef NS_ENUM(NSUInteger,WWKTrackAction) {
 //static NSString * const kAppTrackingHost = @"http://192.168.10.115:33000/";
 //static NSString * const kAppUpdateHost = @"http://192.168.8.21:34000/";
 
-static NSString * const kAppTrackingHost = @"http://c.lcgc.pub/";
-static NSString * const kAppUpdateHost = @"http://v.lcgc.pub/";
+static NSString * const kAppTrackingHost = @"http://c.licaigc.net/";
+static NSString * const kAppUpdateHost = @"http://v.licaigc.net/";
 
 static NSString * const kAppTrackingURL = @"/v1/app";
 static NSString * const kAppUpdateURL   = @"/v1/update/check";
