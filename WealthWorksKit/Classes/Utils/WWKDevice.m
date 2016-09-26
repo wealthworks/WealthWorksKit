@@ -40,7 +40,7 @@
 {
     NSString *idfa = [self IDFA];
     NSLog(@"IDFA is %@",idfa);
-    if (idfa == nil) {
+    if (idfa == nil || [idfa hasPrefix:@"000000"]) {
         idfa = [FCUUID uuidForDevice];
         NSLog(@"IDFA is nil ,FCUUID is %@",idfa);
     }
