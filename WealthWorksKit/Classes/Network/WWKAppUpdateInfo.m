@@ -7,6 +7,8 @@
 //
 
 #import "WWKAppUpdateInfo.h"
+#import "NSString+MJExtension.h"
+
 
 @implementation WWKAppUpdateInfo
 
