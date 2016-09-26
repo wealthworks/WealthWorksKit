@@ -14,25 +14,29 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - FCUUID (1.3.0):
+    - UICKeyChainStore (~> 2.1.0)
   - MJExtension (3.0.13)
   - OpenUDID (1.0.0)
-  - WealthWorksKit (2.1.8):
+  - UICKeyChainStore (2.1.0)
+  - WealthWorksKit (2.1.11):
     - MJExtension
-    - WealthWorksKit/Navigator (= 2.1.8)
-    - WealthWorksKit/Network (= 2.1.8)
-    - WealthWorksKit/NSStringCategories (= 2.1.8)
-    - WealthWorksKit/UIApplicationCategories (= 2.1.8)
-    - WealthWorksKit/Utils (= 2.1.8)
-  - WealthWorksKit/Navigator (2.1.8):
+    - WealthWorksKit/Navigator (= 2.1.11)
+    - WealthWorksKit/Network (= 2.1.11)
+    - WealthWorksKit/NSStringCategories (= 2.1.11)
+    - WealthWorksKit/UIApplicationCategories (= 2.1.11)
+    - WealthWorksKit/Utils (= 2.1.11)
+  - WealthWorksKit/Navigator (2.1.11):
     - MJExtension
-  - WealthWorksKit/Network (2.1.8):
+  - WealthWorksKit/Network (2.1.11):
     - AFNetworking (~> 3.0)
+    - FCUUID
     - MJExtension
-  - WealthWorksKit/NSStringCategories (2.1.8):
+  - WealthWorksKit/NSStringCategories (2.1.11):
     - MJExtension
-  - WealthWorksKit/UIApplicationCategories (2.1.8):
+  - WealthWorksKit/UIApplicationCategories (2.1.11):
     - MJExtension
-  - WealthWorksKit/Utils (2.1.8):
+  - WealthWorksKit/Utils (2.1.11):
     - MJExtension
     - OpenUDID
 
@@ -45,10 +49,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FCUUID: f0cd5df92e4689b7d9d7264e2b32c588dc54c1f3
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
-  WealthWorksKit: 1c1df743e14f31e261e0c017dfd7b38f945081e7
+  UICKeyChainStore: f1cbd42216a113f0165de1e733e62905b8823432
+  WealthWorksKit: 502bdd74c5ca50e61e457e3a11c6e50db12047b0
 
-PODFILE CHECKSUM: 08ac7879046a4436a1cd86a08ecf4a48f5d58b76
+PODFILE CHECKSUM: 893d3c2ba1738a4f396126c4a2414f480b2ca479
 
 COCOAPODS: 1.0.1

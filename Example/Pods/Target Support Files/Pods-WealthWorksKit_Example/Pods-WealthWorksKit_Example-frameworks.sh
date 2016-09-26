@@ -82,16 +82,3 @@ strip_invalid_archs() {
   fi
 }
 
-
-if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/MJExtension/MJExtension.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/OpenUDID/OpenUDID.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/WealthWorksKit/WealthWorksKit.framework"
-fi
-if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/MJExtension/MJExtension.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/OpenUDID/OpenUDID.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/WealthWorksKit/WealthWorksKit.framework"
-fi

@@ -8,8 +8,7 @@
 
 #import "WWKViewController.h"
 #import "WWKTestNavigationDefine.h"
-
-@import WealthWorksKit;
+#import <WealthWorksKit/WWKTrackKit.h>
 
 @interface WWKViewController ()
 
@@ -48,7 +47,7 @@
     
     [WWKTrackKit startWithAppKey:WWKAppKeyTimi];
     
-    [[WWKTrackKit shareInstance] userDidActivate];
+    [[WWKTrackKit shareInstance] userDidActivate:nil];
     
     [[WWKTrackKit shareInstance] userDidLoginWithUserId:@"1000"];
     [[WWKTrackKit shareInstance] userDidRegistWithUserId:@"1000"];

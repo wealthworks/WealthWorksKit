@@ -20,6 +20,12 @@
  */
 + (NSString *)uuid;
 
+
+/**
+ *  获取唯一的字符串，主要用来给jpush 设置alias
+ */
++ (NSString *)identifier;
+
 /**
  *  设备类型
  *  e.g. @"iPhone", @"iPod touch"

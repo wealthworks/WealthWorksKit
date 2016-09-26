@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2315680CB2B5EAA57966A1D4 /* Pods_WealthWorksKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD67FF1C0A6E08C6B3F3FEB /* Pods_WealthWorksKit_Tests.framework */; };
+		1D2F95EFD370D4080702E930 /* libPods-WealthWorksKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D05D451134F5360C3E091AE /* libPods-WealthWorksKit_Example.a */; };
 		343D57EA1D55C11F00BD85B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343D57E91D55C11F00BD85B8 /* LaunchScreen.storyboard */; };
 		343D57EF1D55C41A00BD85B8 /* WWKTestNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 343D57EE1D55C41A00BD85B8 /* WWKTestNavigator.m */; };
 		343D57F21D55C52200BD85B8 /* WWKTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 343D57F11D55C52200BD85B8 /* WWKTestViewController.m */; };
@@ -24,9 +24,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		8504E23F19F8E626B43A7BAA /* Pods_WealthWorksKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD87451EFFF077DA62DD9A9 /* Pods_WealthWorksKit_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		AFBE0D271D6C9E0F00D4F3B2 /* WWKTestModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBE0D261D6C9E0F00D4F3B2 /* WWKTestModelViewController.m */; };
+		F24A2C23775A3D2426DFDBC5 /* libPods-WealthWorksKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3218594122676924E31F7272 /* libPods-WealthWorksKit_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1DD87451EFFF077DA62DD9A9 /* Pods_WealthWorksKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WealthWorksKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D05D451134F5360C3E091AE /* libPods-WealthWorksKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WealthWorksKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3218594122676924E31F7272 /* libPods-WealthWorksKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WealthWorksKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		343D57E91D55C11F00BD85B8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		343D57EC1D55C3ED00BD85B8 /* WWKTestNavigationDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWKTestNavigationDefine.h; sourceTree = "<group>"; };
 		343D57ED1D55C41A00BD85B8 /* WWKTestNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWKTestNavigator.h; sourceTree = "<group>"; };
@@ -72,7 +73,6 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		966469BC496A56B98619FA21 /* WealthWorksKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WealthWorksKit.podspec; path = ../WealthWorksKit.podspec; sourceTree = "<group>"; };
 		9C471BEA741FD88047FEB14E /* Pods-WealthWorksKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WealthWorksKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WealthWorksKit_Example/Pods-WealthWorksKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AAD67FF1C0A6E08C6B3F3FEB /* Pods_WealthWorksKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WealthWorksKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBE0D251D6C9E0F00D4F3B2 /* WWKTestModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWKTestModelViewController.h; sourceTree = "<group>"; };
 		AFBE0D261D6C9E0F00D4F3B2 /* WWKTestModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWKTestModelViewController.m; sourceTree = "<group>"; };
 		CCB56845572EFDD985CAAFA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				8504E23F19F8E626B43A7BAA /* Pods_WealthWorksKit_Example.framework in Frameworks */,
+				1D2F95EFD370D4080702E930 /* libPods-WealthWorksKit_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				2315680CB2B5EAA57966A1D4 /* Pods_WealthWorksKit_Tests.framework in Frameworks */,
+				F24A2C23775A3D2426DFDBC5 /* libPods-WealthWorksKit_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,8 +158,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				1DD87451EFFF077DA62DD9A9 /* Pods_WealthWorksKit_Example.framework */,
-				AAD67FF1C0A6E08C6B3F3FEB /* Pods_WealthWorksKit_Tests.framework */,
+				2D05D451134F5360C3E091AE /* libPods-WealthWorksKit_Example.a */,
+				3218594122676924E31F7272 /* libPods-WealthWorksKit_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -499,7 +499,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -532,7 +532,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -547,7 +547,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WealthWorksKit/WealthWorksKit-Prefix.pch";
 				INFOPLIST_FILE = "WealthWorksKit/WealthWorksKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -564,7 +564,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WealthWorksKit/WealthWorksKit-Prefix.pch";
 				INFOPLIST_FILE = "WealthWorksKit/WealthWorksKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

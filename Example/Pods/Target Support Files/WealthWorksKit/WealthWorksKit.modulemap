@@ -1,6 +1,0 @@
-framework module WealthWorksKit {
-  umbrella header "WealthWorksKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

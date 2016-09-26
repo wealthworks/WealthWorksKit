@@ -81,6 +81,8 @@ static WWKTrackKit *instance = nil;
     
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     [params setObject:@(WWKTrackActionActivate) forKey:@"action"];
+    [params setObject:[WWKDevice identifier] forKey:@"ref_id"];
+
     if (refer) {
         [params setObject:refer forKey:@"refer"];
     }

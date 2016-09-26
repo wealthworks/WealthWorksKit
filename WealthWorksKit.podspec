@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'WealthWorksKit'
-  s.version          = '2.1.11'
+  s.version          = '2.1.12'
   s.summary          = 'Wealth Works Co., Ltd.'
   s.description      = '她理财 好规划 Timi时光记账 基金豆'
   s.homepage         = 'https://github.com/wealthworks/WealthWorksKit'
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   # s.screenshots    = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   # s.license        = { :type => 'MIT', :file => 'LICENSE' }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
   s.requires_arc = true
 
   s.source = { :git => 'https://github.com/wealthworks/WealthWorksKit.git' }
@@ -38,6 +38,7 @@ Pod::Spec.new do |s|
     ss.source_files        = 'WealthWorksKit/Classes/Network/*.{h,m}'
     ss.public_header_files = 'WealthWorksKit/Classes/Network/*.h'
     ss.dependency            'AFNetworking', '~> 3.0'
+    ss.dependency            'FCUUID'
   end
 
   s.subspec 'Navigator' do |ss|

@@ -9,10 +9,13 @@
 #import "WWKDevice.h"
 #import <AdSupport/AdSupport.h>
 #import <OpenUDID/OpenUDID.h>
+#import <FCUUID/FCUUID.h>
 
 #import <ifaddrs.h>
 #import <arpa/inet.h>
 #import <net/if.h>
+
+#import "NSString+Additions.h"
 
 #define WWK_IPADDRESS_IOS_CELLULAR    @"pdp_ip0"
 #define WWK_IPADDRESS_IOS_WIFI        @"en0"
@@ -32,6 +35,18 @@
     NSString* openUDID = [OpenUDID value];
     return openUDID;
 }
+
++ (NSString *)identifier
+{
+    NSString *idfa = [self IDFA];
+    NSLog(@"IDFA is %@",idfa);
+    if (idfa == nil) {
+        idfa = [FCUUID uuidForDevice];
+        NSLog(@"IDFA is nil ,FCUUID is %@",idfa);
+    }
+    return [idfa md5];
+}
+
 
 + (NSString *)model
 {
