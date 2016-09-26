@@ -44,7 +44,7 @@
         idfa = [FCUUID uuidForDevice];
         NSLog(@"IDFA is nil ,FCUUID is %@",idfa);
     }
-    return [idfa md5];
+    return [[idfa md5] uppercaseString];
 }
 
 
