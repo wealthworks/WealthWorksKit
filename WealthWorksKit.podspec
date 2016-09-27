@@ -39,6 +39,7 @@ Pod::Spec.new do |s|
     ss.public_header_files = 'WealthWorksKit/Classes/Network/*.h'
     ss.dependency            'AFNetworking', '~> 3.0'
     ss.dependency            'FCUUID'
+    ss.dependency            'JPush'
   end
 
   s.subspec 'Navigator' do |ss|

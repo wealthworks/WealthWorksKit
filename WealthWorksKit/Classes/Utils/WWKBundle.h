@@ -25,4 +25,9 @@
  */
 + (NSString *)buildVersion;
 
+/**
+ *  极光推送设置tag （1_1_0）
+ */
++ (NSString *)jpushVersionForDebug:(BOOL)debug;
+
 @end

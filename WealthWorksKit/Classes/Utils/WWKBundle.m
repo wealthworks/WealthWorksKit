@@ -25,4 +25,13 @@
     return [[NSBundle mainBundle] infoDictionary][(NSString *)kCFBundleVersionKey];
 }
 
++ (NSString *)jpushVersionForDebug:(BOOL)debug
+{
+    NSString *tag = [[self appVersion] stringByReplacingOccurrencesOfString:@"." withString:@"_"];
+    if (debug) {
+        tag = [tag stringByAppendingString:@"_test"];
+    }
+    return tag;
+}
+
 @end
