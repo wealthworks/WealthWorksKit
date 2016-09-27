@@ -19,6 +19,8 @@
  */
 + (instancetype)sharedInstance;
 
+- (void)registerForRemoteNotification;
+
 - (void)registJPushAppKey:(NSString *)appKey apsForProduction:(BOOL)production debugMode:(BOOL)debug launchOptions:(NSDictionary *)launchOptions;
 
 - (void)uploadPushTokenToServerIfNeeded:(NSData *)deviceToken;

@@ -63,21 +63,6 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
-- (void)registJPushAppKey:(NSString *)appKey apsForProduction:(BOOL)production debugMode:(BOOL)debug launchOptions:(NSDictionary *)launchOptions {
-    
-    debugMode = debug;
-    
-    [JPUSHService registerForRemoteNotificationTypes:(UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert)
-                                          categories:nil];
-    
-    [JPUSHService setupWithOption:launchOptions
-                           appKey:appKey
-                          channel:@"AppStore"
-                 apsForProduction:production
-            advertisingIdentifier:[WWKDevice IDFA]];
-}
-
-
 /**
  * 注册APNS推送
  * 此方法会回调到AppDelegate的APNS推送注册区段的delegate代码
@@ -91,6 +76,24 @@
         [[UIApplication sharedApplication] registerForRemoteNotificationTypes:myTypes];
     }
 }
+
+
+- (void)registJPushAppKey:(NSString *)appKey apsForProduction:(BOOL)production debugMode:(BOOL)debug launchOptions:(NSDictionary *)launchOptions {
+    
+    [self registerForRemoteNotification];
+    
+    debugMode = debug;
+    
+    [JPUSHService registerForRemoteNotificationTypes:(UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert)
+                                          categories:nil];
+    
+    [JPUSHService setupWithOption:launchOptions
+                           appKey:appKey
+                          channel:@"AppStore"
+                 apsForProduction:production
+            advertisingIdentifier:[WWKDevice IDFA]];
+}
+
 
 - (void)didReceiveRomoteNotification:(NSDictionary *)pushData {
     [JPUSHService handleRemoteNotification:pushData];
