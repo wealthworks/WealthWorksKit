@@ -84,6 +84,12 @@
     
     debugMode = debug;
     
+    if (debugMode) {
+        [JPUSHService setDebugMode];
+    } else {
+        [JPUSHService setLogOFF];
+    }
+    
     [JPUSHService registerForRemoteNotificationTypes:(UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert)
                                           categories:nil];
     
@@ -147,6 +153,7 @@
 }
 
 - (void)networkDidReceiveMessage:(NSNotification *)notification {
+    
 }
 
 
