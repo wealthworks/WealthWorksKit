@@ -98,6 +98,7 @@
                           channel:@"AppStore"
                  apsForProduction:production
             advertisingIdentifier:[WWKDevice IDFA]];
+    [JPUSHService resetBadge];
 }
 
 
