@@ -120,6 +120,8 @@
         return;
     }
     NSLog(@"Upload DeviceToken deviceToken:%@", deviceToken);
+    [[NSUserDefaults standardUserDefaults] setObject:deviceToken forKey:kUserDefaultsDeviceToken];
+    [[NSUserDefaults standardUserDefaults] synchronize];
     [JPUSHService registerDeviceToken:deviceToken];
 }
 

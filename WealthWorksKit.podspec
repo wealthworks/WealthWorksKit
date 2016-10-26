@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'WealthWorksKit'
-  s.version          = '2.1.18'
+  s.version          = '2.1.19'
   s.summary          = 'Wealth Works Co., Ltd.'
   s.description      = '她理财 好规划 Timi时光记账 基金豆'
   s.homepage         = 'https://github.com/wealthworks/WealthWorksKit'
@@ -40,6 +40,7 @@ Pod::Spec.new do |s|
     ss.dependency            'AFNetworking', '~> 3.0'
     ss.dependency            'FCUUID'
     ss.dependency            'JPush'
+    ss.dependency	     'JSPatchPlatform'
   end
 
   s.subspec 'Navigator' do |ss|
