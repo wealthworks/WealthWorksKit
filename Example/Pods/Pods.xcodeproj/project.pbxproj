@@ -10,35 +10,6 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>01717AFEB36C6B6B269E2F43461F8FC1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9D247492C9842A365CA596A0494C3E8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>01ABF8D805E22473A6F725054A5FBB02</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3FD9A4B1D4CA42E32F7598CAC93616AF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>01B24A2574A6179B5590B7B08F1F4179</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -60,6 +31,21 @@
 			<string>E0B1642CEE024C0A884D58CE3E073055</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>0323510C6E253495212923A6EF125090</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8A039E38620DA09C85DF8098BC57459C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0358B918CA8C9D3C214FD4D41CD69A90</key>
 		<dict>
@@ -88,6 +74,19 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
+		<key>05FCCE7C28FAD1588741A8A7610C87BC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WWKJPushManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>0621E1837D33817075A5426D159D0B36</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -103,19 +102,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>06D267192979D6C61EFE77D0BBD2F4B3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WWKURLNavigatorMap.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>06F8E841ABF85498090AD64DE2C3CFBB</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -128,21 +114,6 @@
 			<string>NSString+MJExtension.h</string>
 			<key>path</key>
 			<string>MJExtension/NSString+MJExtension.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>070EF63A0D5BDDFA617BF6A475332FBE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>01ABF8D805E22473A6F725054A5FBB02</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>WealthWorksKit</string>
-			<key>path</key>
-			<string>WealthWorksKit</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -271,26 +242,19 @@
 				</array>
 			</dict>
 		</dict>
-		<key>0A51D5C7C64EECB7F85DF85B9585513D</key>
+		<key>0A2EED74C6DD0B6ADC9D1DC76AC3EBB2</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B04EC3D3F935450F127419F40CE761DC</string>
+			<string>6223A479A9EA9D39A521D45C5451F1EB</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>0B8FC98C458DC926825BBC8553976EC4</key>
 		<dict>
 			<key>children</key>
 			<array>
 				<string>754C7D51858ABFD9D7489F2F224277F5</string>
-				<string>C5C8175C011F3208C70527CE7484FC64</string>
+				<string>58CDDF73AC47EF678BC99FD5B945BEC6</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -368,39 +332,12 @@
 				</array>
 			</dict>
 		</dict>
-		<key>107901F71E2E89A9E7EC93FAD73B9152</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE64191A1F85BCD6C43230F63FCA0867</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>1092A0BB8E5691156C843D7665C7B218</key>
 		<dict>
 			<key>fileRef</key>
 			<string>5F722E16F56FC2D6FB3905E95A0BB035</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>10DAD02F538E664F4D090745E259A497</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>37F015AC53ABECFAB9D61B0E5D1884E4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>UIApplicationCategories</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>118227C43F283C87130BEE2BFABC7EBD</key>
 		<dict>
@@ -443,26 +380,25 @@
 				</array>
 			</dict>
 		</dict>
+		<key>146022442653B86ED5E65E763A5FBD48</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WWKURLNavigatorAction.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>14CD3DFB4A25BAEFB205730FA6750025</key>
 		<dict>
 			<key>fileRef</key>
 			<string>57BF401F936704E95FA07ECAF4B4927C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>14E64D9A4298CD3A0DEF73BDB6935ED4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EB4D0327A74403A2F6B5BC59FC4AF788</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>1522F3B55F184E5745C351B75B541021</key>
 		<dict>
@@ -531,6 +467,28 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>1821C9770D8298787B9AF92F60E37B4D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CD917FF2AF2D555EDFA971C8159AE3C4</string>
+				<string>7C4F734E4C3AF2E38BF6363A38708898</string>
+				<string>83F692FB052AF8906A1D022BBD397FB6</string>
+				<string>2655822272857DAE052278CDBF30B159</string>
+				<string>91B3A36C6147F70D9A92FD666876E98E</string>
+				<string>7EFD69587D988252799B8B92EA528B5D</string>
+				<string>C5D22135F44F07B36AB1B94B6EDA70BA</string>
+				<string>FFA1BBCA2D5E885258C6B4B5FECD45BB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>WealthWorksKit</string>
+			<key>path</key>
+			<string>../..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>18E50597B52CBA5E9D52E0367242196E</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -570,6 +528,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>199A404F0CEFE70F87199260E1E1EC89</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A9DC70A9E57726CFAF2430B23158FD2C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>WealthWorksKit</string>
+			<key>path</key>
+			<string>WealthWorksKit</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>19E6319F6ECED7539AABBD9A211F7AEC</key>
 		<dict>
 			<key>fileRef</key>
@@ -603,12 +576,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1AFCE74285559B78810019212FDC0DDE</key>
+		<key>1C2AC7000FD7CDF9A02B69C93E538DF4</key>
 		<dict>
-			<key>fileRef</key>
-			<string>4F393485D47E0D142CBF28D6779CFA32</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WWKURLNavigatorMap.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>1D5ED5CDBD00B2BADCC2088F3B04C2DF</key>
 		<dict>
@@ -623,12 +602,18 @@
 			<key>remoteInfo</key>
 			<string>OpenUDID</string>
 		</dict>
-		<key>1D61F466B48A0AACE6D6094527BD4820</key>
+		<key>1D85FD24F6F51E1C13FDDE67FFAE9D39</key>
 		<dict>
-			<key>fileRef</key>
-			<string>CA1F830B6C6007CCE8B54D89F9092CCB</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UIApplication+UINavigationController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>1E93A2548B2B01B48ECA00F2DB4EF7EF</key>
 		<dict>
@@ -673,6 +658,20 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>20BDB801A9103E40B55F5BA4A5CDA552</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FC0EAE653FFAA82153725EB172D17B8D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>20FFE6E32589CE42CD9A213551DF180B</key>
 		<dict>
 			<key>isa</key>
@@ -683,6 +682,21 @@
 			<string>9EAB3E42EF957541E6C3C76D35FD008E</string>
 			<key>targetProxy</key>
 			<string>460A2F78B5DF32F243D93ADBC3174408</string>
+		</dict>
+		<key>2276D51ECE79928D2B49F39EEF2CDD09</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9FC7D40C3BA991CDDD356F869947FD2B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>WealthWorksKit</string>
+			<key>path</key>
+			<string>WealthWorksKit</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>23415204AA48A02959E4E5245CF96037</key>
 		<dict>
@@ -704,19 +718,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>236F33B90EAA3D4E3AAAB12729C070A9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>98D6ECB3D3DAFFE8C7EB74993508BABD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>23BCEECA7B3979FB4D1C85C3C2EF364C</key>
 		<dict>
@@ -747,16 +748,16 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>24539E005A8726E254D50063AB348D24</key>
+		<key>2655822272857DAE052278CDBF30B159</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>7E595EC86A616B59401D0B5D2D4277A5</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIApplication+UINavigationController.m</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Reachability</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -799,19 +800,6 @@
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>26E8F684D801619EB3EFFB8CCEB7C371</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>WWKTrackKit.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>27E28F6ABEF8FC6C5121BC651F1600C7</key>
 		<dict>
@@ -866,6 +854,32 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>286A4E955EA24114BB6E20F6BD67B6C4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WWKTrackKit.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>292A03E27624109BBB1C34F130E2B322</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WWKDevice.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>2A19C65EB58EA6510B4B3BC03321175C</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -878,6 +892,19 @@
 			<string>AFNetworking.h</string>
 			<key>path</key>
 			<string>AFNetworking/AFNetworking.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2AA1FED21746DFACF5B48CDD2A7D3DA5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WWKBundle.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -944,6 +971,21 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
+		<key>2E159F8F0EB6B25C35512F5DCE41A172</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BFA78B294298C9173504EFA61F2EF0D5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>2E48DBD1378C2F1C4D58A0872AD4B037</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -986,19 +1028,6 @@
 			<string>Support Files</string>
 			<key>path</key>
 			<string>../Target Support Files/AFNetworking</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3045929BCF657F1BAD1EFDA758302A9F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WealthWorksKit-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1088,40 +1117,12 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>3792D91EBB32978F605D7831E0A28705</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>WWKURLNavigatorMap.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>37A6799A3BFAB1FF61BCDB07843CCA90</key>
 		<dict>
 			<key>fileRef</key>
 			<string>5F722E16F56FC2D6FB3905E95A0BB035</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>37F015AC53ABECFAB9D61B0E5D1884E4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4CE6F97A05DA79443505AC060EF6537D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>WealthWorksKit</string>
-			<key>path</key>
-			<string>WealthWorksKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>38B144C2C23499D76BCD72E1BF8A8ED0</key>
 		<dict>
@@ -1238,10 +1239,25 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>3E6B138E41FAB03C438CED0E87A3CFF6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FC0EAE653FFAA82153725EB172D17B8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>3EDE270407FA9E9D5A8131D5C33177A0</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>A6E75E80B6A20C4B8622B7CDEF940BDC</string>
+			<string>3EE86B94D331DF90DFDCCA06759A5670</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1278,6 +1294,19 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>3EE86B94D331DF90DFDCCA06759A5670</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>WealthWorksKit.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>3EECB55F42CC8AFCC3958EAD54056A31</key>
 		<dict>
 			<key>isa</key>
@@ -1288,34 +1317,6 @@
 			<string>B2B0F87BC788FA547E5356A9006F455A</string>
 			<key>targetProxy</key>
 			<string>0DDF4D340F54C0116F08B49161E469AC</string>
-		</dict>
-		<key>3F6D3DC9311F9A438AC7BA2A42254A42</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E6B5CADBEEB271547C15CB4B3D9B7396</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>WealthWorksKit</string>
-			<key>path</key>
-			<string>WealthWorksKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3F7BC80AB2F79107A610CF6894088080</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>WWKJPushManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>3FA2475660FFC880302AD18E29B2E5FC</key>
 		<dict>
@@ -1395,18 +1396,12 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>3FD9A4B1D4CA42E32F7598CAC93616AF</key>
+		<key>41AA1035F6A50F67BABF9C586ABB91DC</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>D4CA994ECE9BC9108442E5E519633E6B</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WealthWorksKit.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>425E6C29DC4F9C75501C229315432756</key>
 		<dict>
@@ -1462,6 +1457,20 @@
 			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>44FCC127C3B3B241E102965ECCAC7CFE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05FCCE7C28FAD1588741A8A7610C87BC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>45BC81B93CE96506857E5A8898B17D5B</key>
 		<dict>
@@ -1520,14 +1529,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>47B08E19C8641B8808167073F756C22B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>26E8F684D801619EB3EFFB8CCEB7C371</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>49F5351656334C214758C0D0E0CCB2EF</key>
+		<key>488B983ECBADF1D6911E860975D3164D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1536,7 +1538,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>WWKAppUpdateInfo.h</string>
+			<string>NSString+Compare.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1618,67 +1620,12 @@
 				</array>
 			</dict>
 		</dict>
-		<key>4C3BC1EB6B410D6898C0FBF006777AB2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D323DA7CEBF72F9A3A8BF3A115B4FBC2</string>
-				<string>7448594DB3C73F103646CEAC4621077D</string>
-				<string>F59BB41ECBF4653C76C9FC437A0A7195</string>
-				<string>E725B2C51BA8EE53630E3598553D36BA</string>
-				<string>C24A1BE76F0E98A41B61F73ABEC3EC42</string>
-				<string>B52BE958F416AD0A9A9155DF419FCEA9</string>
-				<string>1AFCE74285559B78810019212FDC0DDE</string>
-				<string>7B240E1C727BAFD422F22B84DD8131CC</string>
-				<string>C15BBD457EE8610A9EEC6CBF71154F47</string>
-				<string>AA38726D0C73262583FC348DF88AC1E8</string>
-				<string>47B08E19C8641B8808167073F756C22B</string>
-				<string>1D61F466B48A0AACE6D6094527BD4820</string>
-				<string>C7AD544FA6FE9B2B6F32668B59E389E8</string>
-				<string>99269A1D31B5F9C2C3D908C3DF25DDEF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
 		<key>4C61B999DF40B1B00449A7AFCBB61D5E</key>
 		<dict>
 			<key>fileRef</key>
 			<string>C83393EEC730EC8DCE54C63F27E118E2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>4CE6F97A05DA79443505AC060EF6537D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6FABE26A287BB60D938AB229CB5B18FC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DA99C144B80CAB90C01E97D217FE1DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>91B4D6C7A59828CB8D47608E8CB1F4C5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>4E3CAD62D4B093DE2F427036EDF97805</key>
 		<dict>
@@ -1698,19 +1645,6 @@
 			<string>3923EC7C8C79EF0BFAF985B363F9F861</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>4F393485D47E0D142CBF28D6779CFA32</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>WWKDevice.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>508C962B3E08E8DA04956BF349A3CDFD</key>
 		<dict>
@@ -1769,19 +1703,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>54F1331AFFAD1463F0903B168A353313</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WWKURLNavigatorViewControllerProtocol.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>54FEDB9FF681CED9E89E6C6626362EDC</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1794,6 +1715,13 @@
 			<string>Pods-WealthWorksKit_Example.debug.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>555897F08C8CF96E48D2781A3AECE81F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>286A4E955EA24114BB6E20F6BD67B6C4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>564916540E8F210D846FF2C018A1E81B</key>
 		<dict>
@@ -1809,6 +1737,33 @@
 			<string>libWealthWorksKit.a</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>56C1C2152437BB589AC2A54680F02FE3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>789DAD96F3838823A8AB58375E347C39</string>
+				<string>7655D8B312F7D683D597FD209E5EE1AC</string>
+				<string>B6936918639A0558E789D8DF1151C69A</string>
+				<string>C11141E1CAFD1E73AE6A20B014BA7B15</string>
+				<string>0A2EED74C6DD0B6ADC9D1DC76AC3EBB2</string>
+				<string>D595AE50C45994990C19A4ABBA7CFB9D</string>
+				<string>F09778BFF017295FD645F3CDD7FFE372</string>
+				<string>41AA1035F6A50F67BABF9C586ABB91DC</string>
+				<string>97975B87F38A31B6ED2CB58658A66B02</string>
+				<string>8F3166EF9A58295F4FC8CAA1005647C1</string>
+				<string>EDE5B61166C0DD7ECA3DC7005AE551B3</string>
+				<string>555897F08C8CF96E48D2781A3AECE81F</string>
+				<string>CB5D57849C9BD37C9BED7B5DC0302701</string>
+				<string>7784E35AE62E1C5AF40A2EC50C812B10</string>
+				<string>DFB28F748381693122CA6F79636EC5E7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>574445B8475B549663B4184F844F2D68</key>
 		<dict>
@@ -1837,6 +1792,40 @@
 			<string>AFAutoPurgingImageCache.m</string>
 			<key>path</key>
 			<string>UIKit+AFNetworking/AFAutoPurgingImageCache.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>58CDDF73AC47EF678BC99FD5B945BEC6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>77248F648EC467D0AE7A67BEF8945D7F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>59C430C1F3767629F49AF5BBF9E71B45</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F55FED1E5721AFCF9F18ACB04C3D7C48</string>
+				<string>C332EEC91C033E83B8311B0BAE567515</string>
+				<string>146022442653B86ED5E65E763A5FBD48</string>
+				<string>78170678E21778063BBA3D4AB072273D</string>
+				<string>1C2AC7000FD7CDF9A02B69C93E538DF4</string>
+				<string>A7DE572BD05D6B28AF5CCE33F86CF6E5</string>
+				<string>C82F9CCC06F181D7FD55E0E397A78DC5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Navigator</string>
+			<key>path</key>
+			<string>Navigator</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1919,20 +1908,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>614C28F569EA3CBE6DF133ACDAD49FD6</key>
+		<key>5FAD151A063406F336717FD5F87335E7</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>E13FD52F426BC361DA08020CB533BB79</string>
-			</array>
+			<key>fileRef</key>
+			<string>85E4DC067EC403D4FAC537F2C2E0300A</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>WealthWorksKit</string>
-			<key>path</key>
-			<string>WealthWorksKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>620EA42A93BB9970CC91605029A2BCC6</key>
 		<dict>
@@ -1947,16 +1935,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6228EDFFB15FE2047F5AFE9B53822697</key>
+		<key>6223A479A9EA9D39A521D45C5451F1EB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>WWKTrackKit.h</string>
+			<string>WWKAppUpdateInfo.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1972,19 +1960,6 @@
 			<string>MJFoundation.m</string>
 			<key>path</key>
 			<string>MJExtension/MJFoundation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>64AFCB1D37717DD802611DAC874D6367</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NSString+Additions.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2022,18 +1997,33 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>6722839780EF73E40721C5530B18E22F</key>
+		<key>668E355D0A74A636E2D6A4AF4F77D0F3</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>67CF4DB7A1EC7851000CDA03E6D5DDE0</string>
-			</array>
+			<key>fileRef</key>
+			<string>146022442653B86ED5E65E763A5FBD48</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Utils</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>679D80483D53BDEBC493D739A580F0A6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>488B983ECBADF1D6911E860975D3164D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>67B3AF602B65F53F17A0D9EC838B762E</key>
 		<dict>
@@ -2049,41 +2039,25 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>67CF4DB7A1EC7851000CDA03E6D5DDE0</key>
+		<key>67D0FCD2985DCBC9209E407AFF3C3878</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>DA1B7BB282CF522BD1359FDD2B265AD0</string>
+				<string>E11C05A539A751F3AFF9CC5093DDE24C</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>WealthWorksKit</string>
+			<string>Classes</string>
 			<key>path</key>
-			<string>WealthWorksKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6852C0D96B940691AC2A70B5FDD74495</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F3531383DB0D68D8EE11E5AA2654BE45</string>
-				<string>ADD5649A1BD7F53DD8D5BEE2D8C3690E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>NSStringCategories</string>
-			<key>path</key>
-			<string>NSStringCategories</string>
+			<string>Classes</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>68A3E602EF38FF12E6C1FF356C4CBC44</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>A6E75E80B6A20C4B8622B7CDEF940BDC</string>
+			<string>3EE86B94D331DF90DFDCCA06759A5670</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -2119,35 +2093,6 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Debug</string>
-		</dict>
-		<key>68CA8F506610C913AA9DE8A96D20FD62</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B424A120FBA0D3446642E5C7C8266199</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6ADD1C1BCF88412364F4E81EF8288878</key>
-		<dict>
-			<key>fileRef</key>
-			<string>06D267192979D6C61EFE77D0BBD2F4B3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>6ADD4173E1090E9059F98145C9E1DAEB</key>
 		<dict>
@@ -2202,6 +2147,20 @@
 				</array>
 			</dict>
 		</dict>
+		<key>6EE7D0D3ED575CD6C23077C1D45A44E0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CA61C0DC35FFD1C1EC21A6A091F2A480</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>6F84A0C05318A08E22114734FC506783</key>
 		<dict>
 			<key>containerPortal</key>
@@ -2215,22 +2174,6 @@
 			<key>remoteInfo</key>
 			<string>UICKeyChainStore</string>
 		</dict>
-		<key>6FABE26A287BB60D938AB229CB5B18FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E8D45AC8FF81E1B658C9BF3537662B52</string>
-				<string>24539E005A8726E254D50063AB348D24</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>UIApplicationCategories</string>
-			<key>path</key>
-			<string>UIApplicationCategories</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>6FF6489F494ED0DA2EE5DBC8EC9B5D84</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2243,6 +2186,21 @@
 			<string>UIProgressView+AFNetworking.h</string>
 			<key>path</key>
 			<string>UIKit+AFNetworking/UIProgressView+AFNetworking.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>70375BF099C2EC4CA15E0623C7FC2DD5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>59C430C1F3767629F49AF5BBF9E71B45</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2312,52 +2270,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>737386993C5645AA2D53431EF3A5D593</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3F6D3DC9311F9A438AC7BA2A42254A42</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Navigator</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73A81484818995D32C5A4B13B7035A51</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>WWKFormData.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>740FACBCC2108B0C2B881C388871A6BF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>614C28F569EA3CBE6DF133ACDAD49FD6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>NSStringCategories</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7448594DB3C73F103646CEAC4621077D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ADD5649A1BD7F53DD8D5BEE2D8C3690E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>747242460B935FEA3E994652BD8C2E0B</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -2404,20 +2316,25 @@
 			<key>targetProxy</key>
 			<string>A1E57269F344737344D3C2F6462AC3CE</string>
 		</dict>
-		<key>7693C97EF67D2B5CCC32682C041609A9</key>
+		<key>7655D8B312F7D683D597FD209E5EE1AC</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>A6E75E80B6A20C4B8622B7CDEF940BDC</string>
-				<string>A01DE5E21A60FDFA063FB2A512FA1771</string>
-				<string>3045929BCF657F1BAD1EFDA758302A9F</string>
-			</array>
+			<key>fileRef</key>
+			<string>8A629B3C692B7B1E5BDC52AF37387613</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>77248F648EC467D0AE7A67BEF8945D7F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
 			<key>name</key>
-			<string>Support Files</string>
+			<string>libjpush-ios-2.2.0.a</string>
 			<key>path</key>
-			<string>Example/Pods/Target Support Files/WealthWorksKit</string>
+			<string>lib/libjpush-ios-2.2.0.a</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2461,6 +2378,13 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>7784E35AE62E1C5AF40A2EC50C812B10</key>
+		<dict>
+			<key>fileRef</key>
+			<string>78170678E21778063BBA3D4AB072273D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>77946032F78DAA0DB9BBAEC01FEE59C1</key>
 		<dict>
 			<key>fileRef</key>
@@ -2489,10 +2413,30 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
+		<key>78170678E21778063BBA3D4AB072273D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WWKURLNavigatorAction.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>78940A6980F359C4304C695EF6E67C5D</key>
 		<dict>
 			<key>fileRef</key>
 			<string>E1E0387F47AFB2EC9FFF5A54F4D39B31</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>789DAD96F3838823A8AB58375E347C39</key>
+		<dict>
+			<key>fileRef</key>
+			<string>990F04B6754E44A81670B7C2E1A29A32</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -2506,6 +2450,19 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-WealthWorksKit_Tests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>797D589FDAB0A488D8FB4A7E1EE42A9C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WWKNetworkReachability.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2546,19 +2503,40 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7B240E1C727BAFD422F22B84DD8131CC</key>
+		<key>7C4F734E4C3AF2E38BF6363A38708898</key>
 		<dict>
-			<key>fileRef</key>
-			<string>73A81484818995D32C5A4B13B7035A51</string>
+			<key>children</key>
+			<array>
+				<string>7D97B9035CD50D0B64E88BB848A25DA0</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Network</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7D97B9035CD50D0B64E88BB848A25DA0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>67D0FCD2985DCBC9209E407AFF3C3878</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>WealthWorksKit</string>
+			<key>path</key>
+			<string>WealthWorksKit</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
 			<key>children</key>
 			<array>
 				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
-				<string>236F33B90EAA3D4E3AAAB12729C070A9</string>
+				<string>AD41EDFDC451B43AD61F25A9640B8A50</string>
 				<string>F4CDA5FA9197A41E0081E84F932906EB</string>
 				<string>C487B7A106C17050F1B8B4CFC2BFB266</string>
 				<string>B7612D58D19F7633B2FB46F0CE8515BE</string>
@@ -2569,16 +2547,31 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7DF9F0DA7FBA7A4191417A796353C9BE</key>
+		<key>7E595EC86A616B59401D0B5D2D4277A5</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>AC172380DE9D0693FE93AA1D779A0E86</string>
+				<string>0323510C6E253495212923A6EF125090</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Network</string>
+			<string>WealthWorksKit</string>
+			<key>path</key>
+			<string>WealthWorksKit</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7EFD69587D988252799B8B92EA528B5D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2276D51ECE79928D2B49F39EEF2CDD09</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>UIApplicationCategories</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2642,6 +2635,19 @@
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
+		<key>826E296AB83527F8C88B30DBEE889E07</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WWKDevice.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>82AC702ADDA1A270E2C1C0F72F074F1A</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2693,6 +2699,19 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>83F692FB052AF8906A1D022BBD397FB6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>199A404F0CEFE70F87199260E1E1EC89</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>NSStringCategories</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>8475CD31660595ECF045DE1175E0DE83</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -2733,6 +2752,20 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>84CD97822C17F30801FC9C998CD187EF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F65F8A822D42A5F689B80D6B0B7C0F4C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>858E4D63451B7464DF804C4DC6639FFC</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2758,6 +2791,19 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-WealthWorksKit_Tests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>85E4DC067EC403D4FAC537F2C2E0300A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>UIApplication+UINavigationController.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2789,40 +2835,26 @@
 				</array>
 			</dict>
 		</dict>
+		<key>871E7B6A54383017CB33F7EBA81C071D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C82F9CCC06F181D7FD55E0E397A78DC5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>87AE2861F102C7F21BA8D9819455D7A4</key>
 		<dict>
 			<key>fileRef</key>
 			<string>B6E8D4E76ACFD2BDF405B44CC3C07D78</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>880997B0AB0BA12D47D506205A34CB6A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libjpush-ios-2.1.9.a</string>
-			<key>path</key>
-			<string>lib/libjpush-ios-2.1.9.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>88FABCEE6918A91559A001945C6367A6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WWKJPushManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>8915ED643EC0601A00B22BF9C01F3CB0</key>
 		<dict>
@@ -2838,6 +2870,63 @@
 			<string>AFNetworking/AFNetworkReachabilityManager.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8A039E38620DA09C85DF8098BC57459C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>797D589FDAB0A488D8FB4A7E1EE42A9C</string>
+				<string>C8643F99FFB057B9F12282F2A47AADBA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Reachability</string>
+			<key>path</key>
+			<string>Reachability</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8A629B3C692B7B1E5BDC52AF37387613</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>NSString+Compare.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8AA6964BEAF447B39E97A312FB3400ED</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9C4F4379F2CE1C0195456FB7AA604E3A</string>
+				<string>679D80483D53BDEBC493D739A580F0A6</string>
+				<string>5FAD151A063406F336717FD5F87335E7</string>
+				<string>20BDB801A9103E40B55F5BA4A5CDA552</string>
+				<string>E92C365368DC499BFCEEDB881BF8781A</string>
+				<string>96F2709463984465292E2374D78D67AB</string>
+				<string>9E28F3430D0771CEC32C95FF0E6A185F</string>
+				<string>84CD97822C17F30801FC9C998CD187EF</string>
+				<string>95AEFE3398D72C1016F6DA5161470A51</string>
+				<string>44FCC127C3B3B241E102965ECCAC7CFE</string>
+				<string>EE30F87A40BC4D8DE07DA1B150FCFB7F</string>
+				<string>6EE7D0D3ED575CD6C23077C1D45A44E0</string>
+				<string>FC25EBE0C56679C30C43829E8F82A5BD</string>
+				<string>668E355D0A74A636E2D6A4AF4F77D0F3</string>
+				<string>CFBF2ABCF89756BC5F86252140BA3363</string>
+				<string>871E7B6A54383017CB33F7EBA81C071D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>8C0C103BC01D71BCD06B3C9EF8C95074</key>
 		<dict>
@@ -2919,6 +3008,28 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>8EEFB26904BD130F27FD6941BBFD4E1B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>70375BF099C2EC4CA15E0623C7FC2DD5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>WealthWorksKit</string>
+			<key>path</key>
+			<string>WealthWorksKit</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8F3166EF9A58295F4FC8CAA1005647C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C7020F0C3C6F02BE87E5FD028A72755B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>8F6AD15D5E8064395FF4A5F12B0EFBBA</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2949,16 +3060,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>91B4D6C7A59828CB8D47608E8CB1F4C5</key>
+		<key>91B3A36C6147F70D9A92FD666876E98E</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>3EE86B94D331DF90DFDCCA06759A5670</string>
+				<string>AE0F0553BBB40B4CEF0A45CDAB6A109D</string>
+				<string>95651D30FB7E447F69B8C2E9D52A632D</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
 			<key>path</key>
-			<string>WWKHTTPSessionManager.h</string>
+			<string>Example/Pods/Target Support Files/WealthWorksKit</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2975,6 +3090,19 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>920AD6149BDE46C8CD2DDFD9C0336111</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WWKHTTPSessionManager.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>928306ED7E78B65F7868A123D1979C1E</key>
 		<dict>
@@ -3025,34 +3153,6 @@
 			<string>9B412E0D1AA7CFCC3B6CBEC582819D45</string>
 			<key>remoteInfo</key>
 			<string>FCUUID</string>
-		</dict>
-		<key>9357B6832B2C7ECD45E0384265FDB908</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6228EDFFB15FE2047F5AFE9B53822697</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>936E9D9D0169BF0F3FC3AFECF057E82A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E8D45AC8FF81E1B658C9BF3537662B52</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>9386AE6EADD9B3E56D6A76781CFAF101</key>
 		<dict>
@@ -3150,6 +3250,33 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>95651D30FB7E447F69B8C2E9D52A632D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WealthWorksKit-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>95AEFE3398D72C1016F6DA5161470A51</key>
+		<dict>
+			<key>fileRef</key>
+			<string>980DF92F6C1B5646E6742C7710EC9B12</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>96C46228648558FD89F9C5E73CFA6139</key>
 		<dict>
 			<key>buildConfigurationList</key>
@@ -3174,33 +3301,52 @@
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>98D6ECB3D3DAFFE8C7EB74993508BABD</key>
+		<key>96F2709463984465292E2374D78D67AB</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>737386993C5645AA2D53431EF3A5D593</string>
-				<string>7DF9F0DA7FBA7A4191417A796353C9BE</string>
-				<string>740FACBCC2108B0C2B881C388871A6BF</string>
-				<string>7693C97EF67D2B5CCC32682C041609A9</string>
-				<string>10DAD02F538E664F4D090745E259A497</string>
-				<string>6722839780EF73E40721C5530B18E22F</string>
-				<string>070EF63A0D5BDDFA617BF6A475332FBE</string>
-			</array>
+			<key>fileRef</key>
+			<string>2AA1FED21746DFACF5B48CDD2A7D3DA5</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>WealthWorksKit</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>97975B87F38A31B6ED2CB58658A66B02</key>
+		<dict>
+			<key>fileRef</key>
+			<string>920AD6149BDE46C8CD2DDFD9C0336111</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>980DF92F6C1B5646E6742C7710EC9B12</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>../..</string>
+			<string>WWKHTTPSessionManager.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>99269A1D31B5F9C2C3D908C3DF25DDEF</key>
+		<key>990F04B6754E44A81670B7C2E1A29A32</key>
 		<dict>
-			<key>fileRef</key>
-			<string>3792D91EBB32978F605D7831E0A28705</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>NSString+Additions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>99E4742C71374C30BEFC8419CF7F39B6</key>
 		<dict>
@@ -3316,6 +3462,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>9C4F4379F2CE1C0195456FB7AA604E3A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FC95A046368AF1BE2F33685120D84650</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>9C6A13987001C908FC20ACA0DDCF135F</key>
 		<dict>
 			<key>containerPortal</key>
@@ -3343,6 +3503,20 @@
 			<string>Core</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9E28F3430D0771CEC32C95FF0E6A185F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>292A03E27624109BBB1C34F130E2B322</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>9E66E1DB2D646D183104055FFE5BEC01</key>
 		<dict>
@@ -3421,16 +3595,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A01DE5E21A60FDFA063FB2A512FA1771</key>
+		<key>9FC7D40C3BA991CDDD356F869947FD2B</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>DA5FC18DD3CE9939D014CE420FD5AA90</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
 			<key>path</key>
-			<string>WealthWorksKit-dummy.m</string>
+			<string>Classes</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3480,46 +3656,6 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>A3B4CF301724C827973ABFBA56628AFF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0A51D5C7C64EECB7F85DF85B9585513D</string>
-				<string>FEF709356CE96AB1992E867479F4D498</string>
-				<string>936E9D9D0169BF0F3FC3AFECF057E82A</string>
-				<string>F69ECAB53B8A9515958C62392E83C52A</string>
-				<string>FCE6F3257928FFB2277888E48BA75955</string>
-				<string>ABC15F0D714B2C9591087F5689D613F8</string>
-				<string>107901F71E2E89A9E7EC93FAD73B9152</string>
-				<string>01717AFEB36C6B6B269E2F43461F8FC1</string>
-				<string>4DA99C144B80CAB90C01E97D217FE1DB</string>
-				<string>E8257CE20FB98786E706FB80E2F25AAA</string>
-				<string>9357B6832B2C7ECD45E0384265FDB908</string>
-				<string>F3A2BD59B1CF8FD60536C396AE0C0066</string>
-				<string>14E64D9A4298CD3A0DEF73BDB6935ED4</string>
-				<string>6ADD1C1BCF88412364F4E81EF8288878</string>
-				<string>F9BC575F24C93F27A2A7DB052BE97793</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A51081A984DED95EB476AAE5B9CF4E22</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WWKURLNavigator.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>A55FB0A9685F846BC54D9382F8AA7B23</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -3557,16 +3693,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A6E75E80B6A20C4B8622B7CDEF940BDC</key>
+		<key>A7DE572BD05D6B28AF5CCE33F86CF6E5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>WealthWorksKit.xcconfig</string>
+			<string>WWKURLNavigatorMap.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3606,6 +3742,21 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>A9DC70A9E57726CFAF2430B23158FD2C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F2FFFCCCC0500CD1816D6F38A167F787</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>A9DCF84F88DEA5A70F5D369E74A221F2</key>
 		<dict>
 			<key>children</key>
@@ -3642,22 +3793,15 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AA38726D0C73262583FC348DF88AC1E8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3F7BC80AB2F79107A610CF6894088080</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>AB416786A463C0816FF0C69EBF34F182</key>
 		<dict>
 			<key>buildConfigurationList</key>
 			<string>BA02AACF983A49A3CADBC20E84508E17</string>
 			<key>buildPhases</key>
 			<array>
-				<string>4C3BC1EB6B410D6898C0FBF006777AB2</string>
+				<string>56C1C2152437BB589AC2A54680F02FE3</string>
 				<string>45BC81B93CE96506857E5A8898B17D5B</string>
-				<string>A3B4CF301724C827973ABFBA56628AFF</string>
+				<string>8AA6964BEAF447B39E97A312FB3400ED</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -3680,32 +3824,16 @@
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>ABC15F0D714B2C9591087F5689D613F8</key>
+		<key>AC4113DE438711AE21127E5D0B3092F2</key>
 		<dict>
-			<key>fileRef</key>
-			<string>E5910659F3FFC533CA95C91E1EE189F2</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>AC172380DE9D0693FE93AA1D779A0E86</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>68CA8F506610C913AA9DE8A96D20FD62</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>WealthWorksKit</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>WealthWorksKit</string>
+			<string>WWKBundle.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3791,7 +3919,20 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>ADD5649A1BD7F53DD8D5BEE2D8C3690E</key>
+		<key>AD41EDFDC451B43AD61F25A9640B8A50</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1821C9770D8298787B9AF92F60E37B4D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AE0F0553BBB40B4CEF0A45CDAB6A109D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3800,7 +3941,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>NSString+Compare.m</string>
+			<string>WealthWorksKit-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3849,19 +3990,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B04EC3D3F935450F127419F40CE761DC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NSString+Additions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>B0BE398350F83A7B0102C3BBAFC51428</key>
 		<dict>
 			<key>fileRef</key>
@@ -3901,30 +4029,6 @@
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>B424A120FBA0D3446642E5C7C8266199</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>49F5351656334C214758C0D0E0CCB2EF</string>
-				<string>D4F30A909F227676DC4E0DE01B2A1621</string>
-				<string>E9D247492C9842A365CA596A0494C3E8</string>
-				<string>73A81484818995D32C5A4B13B7035A51</string>
-				<string>91B4D6C7A59828CB8D47608E8CB1F4C5</string>
-				<string>E8D8226A0403B38E076DC5153DEE882C</string>
-				<string>88FABCEE6918A91559A001945C6367A6</string>
-				<string>3F7BC80AB2F79107A610CF6894088080</string>
-				<string>6228EDFFB15FE2047F5AFE9B53822697</string>
-				<string>26E8F684D801619EB3EFFB8CCEB7C371</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Network</string>
-			<key>path</key>
-			<string>Network</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>B51AA1F7701DCDBCC9B88A15320F9C2C</key>
 		<dict>
 			<key>fileRef</key>
@@ -3938,13 +4042,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>B52BE958F416AD0A9A9155DF419FCEA9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E3796282B391BE59E2BC471B63F4BFCE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>B5CF67F7870BAB70A76E57479B706B42</key>
 		<dict>
@@ -4000,6 +4097,13 @@
 			<string>AFNetworking-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B6936918639A0558E789D8DF1151C69A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1D85FD24F6F51E1C13FDDE67FFAE9D39</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>B6E8D4E76ACFD2BDF405B44CC3C07D78</key>
 		<dict>
@@ -4164,6 +4268,26 @@
 			<key>remoteInfo</key>
 			<string>UICKeyChainStore</string>
 		</dict>
+		<key>BFA78B294298C9173504EFA61F2EF0D5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FC95A046368AF1BE2F33685120D84650</string>
+				<string>990F04B6754E44A81670B7C2E1A29A32</string>
+				<string>2AA1FED21746DFACF5B48CDD2A7D3DA5</string>
+				<string>AC4113DE438711AE21127E5D0B3092F2</string>
+				<string>292A03E27624109BBB1C34F130E2B322</string>
+				<string>826E296AB83527F8C88B30DBEE889E07</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Utils</string>
+			<key>path</key>
+			<string>Utils</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>C006EB46A985754A2BA19DD76C404BDF</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -4194,10 +4318,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C15BBD457EE8610A9EEC6CBF71154F47</key>
+		<key>C11141E1CAFD1E73AE6A20B014BA7B15</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E8D8226A0403B38E076DC5153DEE882C</string>
+			<string>AE0F0553BBB40B4CEF0A45CDAB6A109D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -4236,12 +4360,18 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C24A1BE76F0E98A41B61F73ABEC3EC42</key>
+		<key>C332EEC91C033E83B8311B0BAE567515</key>
 		<dict>
-			<key>fileRef</key>
-			<string>D4F30A909F227676DC4E0DE01B2A1621</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WWKURLNavigator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>C37D2F9A62232C28DAF2E51CF1364F21</key>
 		<dict>
@@ -4331,16 +4461,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C5C8175C011F3208C70527CE7484FC64</key>
+		<key>C5D22135F44F07B36AB1B94B6EDA70BA</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>880997B0AB0BA12D47D506205A34CB6A</string>
+				<string>CECBA338A826D786CEBB53BFA834D870</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Frameworks</string>
+			<string>Utils</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -4368,12 +4498,31 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C7AD544FA6FE9B2B6F32668B59E389E8</key>
+		<key>C7020F0C3C6F02BE87E5FD028A72755B</key>
 		<dict>
-			<key>fileRef</key>
-			<string>F8C4ED6CCB153FE2D3B44F52AF53C6EE</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WWKJPushManager.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C82F9CCC06F181D7FD55E0E397A78DC5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WWKURLNavigatorViewControllerProtocol.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>C8310D22BC845FE32CC6A715C21A4365</key>
 		<dict>
@@ -4430,6 +4579,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>C8643F99FFB057B9F12282F2A47AADBA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WWKNetworkReachability.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>C8C9B81E2B448B7279E15DFE7722EE54</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -4457,19 +4619,6 @@
 				</array>
 			</dict>
 		</dict>
-		<key>CA1F830B6C6007CCE8B54D89F9092CCB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>WWKURLNavigator.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>CA45A0DB1CE9E7A9D24B308335F7E01F</key>
 		<dict>
 			<key>children</key>
@@ -4484,6 +4633,19 @@
 			<string>Support Files</string>
 			<key>path</key>
 			<string>../Target Support Files/FCUUID</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CA61C0DC35FFD1C1EC21A6A091F2A480</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WWKTrackKit.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -4502,12 +4664,32 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>CB5D57849C9BD37C9BED7B5DC0302701</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C332EEC91C033E83B8311B0BAE567515</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>CD4CF5F1389281BCE40DF30AD1945D03</key>
 		<dict>
 			<key>fileRef</key>
 			<string>9E66E1DB2D646D183104055FFE5BEC01</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>CD917FF2AF2D555EDFA971C8159AE3C4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8EEFB26904BD130F27FD6941BBFD4E1B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Navigator</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>CDA4DB994BAC351F4CD71EC283055E57</key>
 		<dict>
@@ -4529,6 +4711,21 @@
 			<key>remoteInfo</key>
 			<string>FCUUID</string>
 		</dict>
+		<key>CECBA338A826D786CEBB53BFA834D870</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2E159F8F0EB6B25C35512F5DCE41A172</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>WealthWorksKit</string>
+			<key>path</key>
+			<string>WealthWorksKit</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>CF89FD76C084B8C1843538BB43EBFCAA</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -4543,6 +4740,20 @@
 			<string>libUICKeyChainStore.a</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>CFBF2ABCF89756BC5F86252140BA3363</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1C2AC7000FD7CDF9A02B69C93E538DF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>CFEAF14FD67D8134A6BA6E6369E809C5</key>
 		<dict>
@@ -4602,13 +4813,6 @@
 		<dict>
 			<key>fileRef</key>
 			<string>C0853F4859DE473737F057A8D03E1DDF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D323DA7CEBF72F9A3A8BF3A115B4FBC2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>64AFCB1D37717DD802611DAC874D6367</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -4685,7 +4889,7 @@
 				<string>AB416786A463C0816FF0C69EBF34F182</string>
 			</array>
 		</dict>
-		<key>D4F30A909F227676DC4E0DE01B2A1621</key>
+		<key>D4CA994ECE9BC9108442E5E519633E6B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -4694,9 +4898,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>WWKAppUpdateInfo.m</string>
+			<string>WWKFormData.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D595AE50C45994990C19A4ABBA7CFB9D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AC4113DE438711AE21127E5D0B3092F2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>D6875FE3D4C65B16FF6897955CA14E7F</key>
 		<dict>
@@ -4727,26 +4938,6 @@
 			<string>UICKeyChainStore</string>
 			<key>path</key>
 			<string>UICKeyChainStore</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D799BC2368527D1197E425E025CC9036</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B04EC3D3F935450F127419F40CE761DC</string>
-				<string>64AFCB1D37717DD802611DAC874D6367</string>
-				<string>E5910659F3FFC533CA95C91E1EE189F2</string>
-				<string>E3796282B391BE59E2BC471B63F4BFCE</string>
-				<string>DE64191A1F85BCD6C43230F63FCA0867</string>
-				<string>4F393485D47E0D142CBF28D6779CFA32</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Utils</string>
-			<key>path</key>
-			<string>Utils</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -4804,21 +4995,6 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>DA1B7BB282CF522BD1359FDD2B265AD0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D799BC2368527D1197E425E025CC9036</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>DA542440340EC8FFAA79185966D79B97</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -4832,6 +5008,22 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
+		</dict>
+		<key>DA5FC18DD3CE9939D014CE420FD5AA90</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>85E4DC067EC403D4FAC537F2C2E0300A</string>
+				<string>1D85FD24F6F51E1C13FDDE67FFAE9D39</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>UIApplicationCategories</string>
+			<key>path</key>
+			<string>UIApplicationCategories</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>DAF1CE8756287B465E0DE48A6133FB79</key>
 		<dict>
@@ -4881,19 +5073,6 @@
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>DE64191A1F85BCD6C43230F63FCA0867</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WWKDevice.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>DEEC4DCDACCB0D06834BAA376484B5C6</key>
 		<dict>
@@ -4965,6 +5144,13 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>DFB28F748381693122CA6F79636EC5E7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A7DE572BD05D6B28AF5CCE33F86CF6E5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>DFDAC8245626953C4BCE5A2DA6BE2A5B</key>
 		<dict>
 			<key>fileRef</key>
@@ -5023,18 +5209,27 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E13FD52F426BC361DA08020CB533BB79</key>
+		<key>E11C05A539A751F3AFF9CC5093DDE24C</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>6852C0D96B940691AC2A70B5FDD74495</string>
+				<string>E65631EA54CEE07DC26024DB7348ED25</string>
+				<string>6223A479A9EA9D39A521D45C5451F1EB</string>
+				<string>F65F8A822D42A5F689B80D6B0B7C0F4C</string>
+				<string>D4CA994ECE9BC9108442E5E519633E6B</string>
+				<string>980DF92F6C1B5646E6742C7710EC9B12</string>
+				<string>920AD6149BDE46C8CD2DDFD9C0336111</string>
+				<string>05FCCE7C28FAD1588741A8A7610C87BC</string>
+				<string>C7020F0C3C6F02BE87E5FD028A72755B</string>
+				<string>CA61C0DC35FFD1C1EC21A6A091F2A480</string>
+				<string>286A4E955EA24114BB6E20F6BD67B6C4</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Classes</string>
+			<string>Network</string>
 			<key>path</key>
-			<string>Classes</string>
+			<string>Network</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -5082,19 +5277,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E3796282B391BE59E2BC471B63F4BFCE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>WWKBundle.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>E41D539AB8957E55F94F6B109E562B1C</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -5125,7 +5307,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E5910659F3FFC533CA95C91E1EE189F2</key>
+		<key>E65631EA54CEE07DC26024DB7348ED25</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -5134,31 +5316,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>WWKBundle.h</string>
+			<string>WWKAppUpdateInfo.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E6B5CADBEEB271547C15CB4B3D9B7396</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EE408AF1709C78E0E5CDCAA3DF6FF8D0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E725B2C51BA8EE53630E3598553D36BA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A01DE5E21A60FDFA063FB2A512FA1771</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>E7CC48EB85E07BC7E5B047C944B0C26D</key>
 		<dict>
@@ -5173,10 +5333,10 @@
 			<key>remoteInfo</key>
 			<string>MJExtension</string>
 		</dict>
-		<key>E8257CE20FB98786E706FB80E2F25AAA</key>
+		<key>E92C365368DC499BFCEEDB881BF8781A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>88FABCEE6918A91559A001945C6367A6</string>
+			<string>E65631EA54CEE07DC26024DB7348ED25</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -5186,45 +5346,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>E8D45AC8FF81E1B658C9BF3537662B52</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIApplication+UINavigationController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E8D8226A0403B38E076DC5153DEE882C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>WWKHTTPSessionManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9D247492C9842A365CA596A0494C3E8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WWKFormData.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>EAB8B0D6E32155D9E45C3BD249CC5B8F</key>
 		<dict>
@@ -5236,19 +5357,6 @@
 			<string>text.plist.xml</string>
 			<key>path</key>
 			<string>Pods-WealthWorksKit_Example-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EB4D0327A74403A2F6B5BC59FC4AF788</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WWKURLNavigatorAction.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -5293,26 +5401,26 @@
 				</array>
 			</dict>
 		</dict>
-		<key>EE408AF1709C78E0E5CDCAA3DF6FF8D0</key>
+		<key>EDE5B61166C0DD7ECA3DC7005AE551B3</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>A51081A984DED95EB476AAE5B9CF4E22</string>
-				<string>CA1F830B6C6007CCE8B54D89F9092CCB</string>
-				<string>EB4D0327A74403A2F6B5BC59FC4AF788</string>
-				<string>F8C4ED6CCB153FE2D3B44F52AF53C6EE</string>
-				<string>06D267192979D6C61EFE77D0BBD2F4B3</string>
-				<string>3792D91EBB32978F605D7831E0A28705</string>
-				<string>54F1331AFFAD1463F0903B168A353313</string>
-			</array>
+			<key>fileRef</key>
+			<string>C8643F99FFB057B9F12282F2A47AADBA</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Navigator</string>
-			<key>path</key>
-			<string>Navigator</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EE30F87A40BC4D8DE07DA1B150FCFB7F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>797D589FDAB0A488D8FB4A7E1EE42A9C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>F00F2E95036744ACC9673AA658A2EA13</key>
 		<dict>
@@ -5324,6 +5432,13 @@
 			<string>9EAB3E42EF957541E6C3C76D35FD008E</string>
 			<key>targetProxy</key>
 			<string>E7CC48EB85E07BC7E5B047C944B0C26D</string>
+		</dict>
+		<key>F09778BFF017295FD645F3CDD7FFE372</key>
+		<dict>
+			<key>fileRef</key>
+			<string>826E296AB83527F8C88B30DBEE889E07</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>F0B56B324449F9F582D2FD588987F9D6</key>
 		<dict>
@@ -5372,6 +5487,22 @@
 			<string>UIRefreshControl+AFNetworking.h</string>
 			<key>path</key>
 			<string>UIKit+AFNetworking/UIRefreshControl+AFNetworking.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F2FFFCCCC0500CD1816D6F38A167F787</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>488B983ECBADF1D6911E860975D3164D</string>
+				<string>8A629B3C692B7B1E5BDC52AF37387613</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>NSStringCategories</string>
+			<key>path</key>
+			<string>NSStringCategories</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -5463,37 +5594,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F3531383DB0D68D8EE11E5AA2654BE45</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NSString+Compare.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>F3774B1449FCE5B3CA3E1B336E11D284</key>
 		<dict>
 			<key>fileRef</key>
 			<string>01B24A2574A6179B5590B7B08F1F4179</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F3A2BD59B1CF8FD60536C396AE0C0066</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A51081A984DED95EB476AAE5B9CF4E22</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -5584,26 +5688,31 @@
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>F59BB41ECBF4653C76C9FC437A0A7195</key>
+		<key>F55FED1E5721AFCF9F18ACB04C3D7C48</key>
 		<dict>
-			<key>fileRef</key>
-			<string>24539E005A8726E254D50063AB348D24</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WWKURLNavigator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F69ECAB53B8A9515958C62392E83C52A</key>
+		<key>F65F8A822D42A5F689B80D6B0B7C0F4C</key>
 		<dict>
-			<key>fileRef</key>
-			<string>3FD9A4B1D4CA42E32F7598CAC93616AF</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WWKFormData.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F77B8072090D78708DAB5FA7AE5A8F4A</key>
 		<dict>
@@ -5648,19 +5757,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F8C4ED6CCB153FE2D3B44F52AF53C6EE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>WWKURLNavigatorAction.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>F95AF419D96CDED026D79CDD7A3B3023</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -5683,20 +5779,6 @@
 			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>F9BC575F24C93F27A2A7DB052BE97793</key>
-		<dict>
-			<key>fileRef</key>
-			<string>54F1331AFFAD1463F0903B168A353313</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>FA7D1C746F9D0D02AFE63A5C4FC90E52</key>
 		<dict>
@@ -5762,17 +5844,23 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>FCDDD3BC67EA205C87238A2A87D5C36C</key>
+		<key>FC0EAE653FFAA82153725EB172D17B8D</key>
 		<dict>
-			<key>fileRef</key>
-			<string>AECB0E09228155FF692B8AFBE2ECDA8E</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WealthWorksKit.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FCE6F3257928FFB2277888E48BA75955</key>
+		<key>FC25EBE0C56679C30C43829E8F82A5BD</key>
 		<dict>
 			<key>fileRef</key>
-			<string>49F5351656334C214758C0D0E0CCB2EF</string>
+			<string>F55FED1E5721AFCF9F18ACB04C3D7C48</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -5782,6 +5870,26 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>FC95A046368AF1BE2F33685120D84650</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>NSString+Additions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FCDDD3BC67EA205C87238A2A87D5C36C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AECB0E09228155FF692B8AFBE2ECDA8E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>FCF4231D247FFDFC13DFA68EFDA138E6</key>
 		<dict>
@@ -5832,20 +5940,6 @@
 			<string>FCUUID.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FEF709356CE96AB1992E867479F4D498</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F3531383DB0D68D8EE11E5AA2654BE45</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>FF07B36A86B318823A146928617ACE9C</key>
 		<dict>
@@ -5899,6 +5993,21 @@
 			<string>UICKeyChainStore.m</string>
 			<key>path</key>
 			<string>Lib/UICKeyChainStore/UICKeyChainStore.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FFA1BBCA2D5E885258C6B4B5FECD45BB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3E6B138E41FAB03C438CED0E87A3CFF6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>WealthWorksKit</string>
+			<key>path</key>
+			<string>WealthWorksKit</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>

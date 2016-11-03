@@ -9,6 +9,7 @@
 #import "WWKViewController.h"
 #import "WWKTestNavigationDefine.h"
 #import <WealthWorksKit/WWKTrackKit.h>
+#import <WealthWorksKit/WWKNetworkReachability.h>
 
 @interface WWKViewController ()
 
@@ -21,6 +22,8 @@
     [super viewDidLoad];
     
     [self testCommonService];
+    
+    [WWKNetworkReachability alertIfNetworkNotConnect];
 }
 
 - (IBAction)jumpToOtherController:(id)sender {
@@ -28,14 +31,14 @@
 //    
 //    NSDictionary *params = @{@"param1" : @"123", @"param2" : @"abc"};
 //    [action applyQuery:params];
-//    
+//
 //    [[WWKURLNavigator navigator] openURLAction:action];
 }
 
 - (IBAction)modelViewController:(id)sender {
-//    WWKURLNavigatorAction *action = [WWKURLNavigatorAction actionWithURLPath:kTestModelViewController];
-//    
-//    [[WWKURLNavigator navigator] openURLAction:action];
+    WWKURLNavigatorAction *action = [WWKURLNavigatorAction actionWithURLPath:kTestModelViewController];
+    
+    [[WWKURLNavigator navigator] openURLAction:action];
 }
 
 - (void)testCommonService
