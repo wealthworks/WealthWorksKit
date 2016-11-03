@@ -42,8 +42,8 @@
                         }]];
                         [alertController addAction:[UIAlertAction actionWithTitle:@"好" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
                         }]];
-                        UINavigationController *nav = [UIApplication sharedApplication].visibleNavigationController;
-                        [nav presentViewController:alertController animated:YES completion:nil];
+                        UIViewController *currentViewController = [UIApplication sharedApplication].currentTopViewController;
+                        [currentViewController presentViewController:alertController animated:YES completion:nil];
                     }
                     break;
                 case kCTCellularDataNotRestricted:

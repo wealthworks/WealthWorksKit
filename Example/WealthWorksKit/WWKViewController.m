@@ -10,6 +10,7 @@
 #import "WWKTestNavigationDefine.h"
 #import <WealthWorksKit/WWKTrackKit.h>
 #import <WealthWorksKit/WWKNetworkReachability.h>
+#import "UIApplication+UINavigationController.h"
 
 @interface WWKViewController ()
 
@@ -21,18 +22,35 @@
 {
     [super viewDidLoad];
     
-    [self testCommonService];
+//    [self testCommonService];
     
-    [WWKNetworkReachability alertIfNetworkNotConnect];
+//    [WWKNetworkReachability alertIfNetworkNotConnect];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"已为“基金豆”关闭网络"
+                                                                             message:@"您可以在“设置”中为此应用打开无线局域网。"
+                                                                      preferredStyle:UIAlertControllerStyleAlert];
+    [alertController addAction:[UIAlertAction actionWithTitle:@"设置" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        NSURL *url = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
+        [[UIApplication sharedApplication] openURL:url];
+    }]];
+    [alertController addAction:[UIAlertAction actionWithTitle:@"好" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+    }]];
+    UIViewController *currentViewController = [UIApplication sharedApplication].currentTopViewController;
+    [currentViewController presentViewController:alertController animated:YES completion:nil];
 }
 
 - (IBAction)jumpToOtherController:(id)sender {
-//    WWKURLNavigatorAction *action = [WWKURLNavigatorAction actionWithURLPath:kWWKTestViewController];
-//    
-//    NSDictionary *params = @{@"param1" : @"123", @"param2" : @"abc"};
-//    [action applyQuery:params];
-//
-//    [[WWKURLNavigator navigator] openURLAction:action];
+    WWKURLNavigatorAction *action = [WWKURLNavigatorAction actionWithURLPath:kWWKTestViewController];
+    
+    NSDictionary *params = @{@"param1" : @"123", @"param2" : @"abc"};
+    [action applyQuery:params];
+
+    [[WWKURLNavigator navigator] openURLAction:action];
 }
 
 - (IBAction)modelViewController:(id)sender {
