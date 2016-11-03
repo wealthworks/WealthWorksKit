@@ -11,5 +11,6 @@
 @interface UIApplication (UINavigationController)
 
 - (UINavigationController *)visibleNavigationController;
+- (UIViewController *)currentTopViewController;
 
 @end
