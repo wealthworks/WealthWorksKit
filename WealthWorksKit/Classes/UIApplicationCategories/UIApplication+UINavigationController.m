@@ -38,7 +38,11 @@
         UIViewController *presentedVC = vc.presentedViewController;
         
         if (!presentedVC) {
-            return vc.navigationController;
+            if (!vc.navigationController) {
+                return (UINavigationController *)vc;
+            } else {
+                return vc.navigationController;
+            }
         } else {
             return [self recursiveGetNavController:presentedVC];
         }

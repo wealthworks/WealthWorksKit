@@ -27,6 +27,12 @@ Pod::Spec.new do |s|
   #   'WealthWorksKit' => ['WealthWorksKit/Assets/*.png']
   # }
 
+  s.subspec 'Reachability' do |ss|
+    ss.source_files        = 'WealthWorksKit/Classes/Reachability/*.{h,m}'
+    ss.public_header_files = 'WealthWorksKit/Classes/Reachability/*.h'
+    ss.dependency            'AFNetworking', '~> 3.0'
+  end
+
   s.subspec 'Utils' do |ss|
     ss.source_files        = 'WealthWorksKit/Classes/Utils/*.{h,m}'
     ss.public_header_files = 'WealthWorksKit/Classes/Utils/*.h'
