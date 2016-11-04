@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'WealthWorksKit'
-  s.version          = '2.1.21'
+  s.version          = '2.1.22'
   s.summary          = 'Wealth Works Co., Ltd.'
   s.description      = '她理财 好规划 Timi时光记账 基金豆'
   s.homepage         = 'https://github.com/wealthworks/WealthWorksKit'
@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
     ss.public_header_files = 'WealthWorksKit/Classes/Network/*.h'
     ss.dependency            'AFNetworking', '~> 3.0'
     ss.dependency            'FCUUID'
-    ss.dependency            'JPush'
+    ss.dependency            'JPush', '2.1.9'
     ss.dependency	     'JSPatchPlatform'
   end
 
