@@ -96,37 +96,8 @@
         JPUSHRegisterEntity * entity = [[JPUSHRegisterEntity alloc] init];
         entity.types = UNAuthorizationOptionAlert|UNAuthorizationOptionBadge|UNAuthorizationOptionSound;
         [JPUSHService registerForRemoteNotificationConfig:entity delegate:self];
-    } else if ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0) {
-        //可以添加自定义categories
-        UIMutableUserNotificationAction *action1;
-        action1 = [[UIMutableUserNotificationAction alloc] init];
-        [action1 setActivationMode:UIUserNotificationActivationModeForeground];
-        [action1 setTitle:@"回复"];
-        [action1 setIdentifier:@"NotificationActionReply"];
-        [action1 setDestructive:NO];
-        [action1 setAuthenticationRequired:NO];
-        
-        UIMutableUserNotificationAction *action2;
-        action2 = [[UIMutableUserNotificationAction alloc] init];
-        [action2 setActivationMode:UIUserNotificationActivationModeBackground];
-        [action2 setTitle:@"删除"];
-        [action2 setIdentifier:@"NotificationActionDelete"];
-        [action2 setDestructive:YES];
-        [action2 setAuthenticationRequired:NO];
-        
-        UIMutableUserNotificationCategory *actionCategory;
-        actionCategory = [[UIMutableUserNotificationCategory alloc] init];
-        [actionCategory setIdentifier:@"NotificationCategoryIdent"];
-        [actionCategory setActions:@[action1, action2]
-                        forContext:UIUserNotificationActionContextDefault];
-        
-        NSSet *categories = [NSSet setWithObject:actionCategory];
-        [JPUSHService registerForRemoteNotificationTypes:(UIUserNotificationTypeBadge |
-                                                          UIUserNotificationTypeSound |
-                                                          UIUserNotificationTypeAlert)
-                                              categories:categories];
     } else {
-        //categories 必须为nil
+        //categories <iOS8 必须为nil  
         [JPUSHService registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge |
                                                           UIRemoteNotificationTypeSound |
                                                           UIRemoteNotificationTypeAlert)
