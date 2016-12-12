@@ -18,7 +18,7 @@
     if ([WWKDevice systemVersion].floatValue < 10.0) {
         return;
     }
-    
+    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
     NSString *lanuchTime = [[NSUserDefaults standardUserDefaults] objectForKey:@"WWKLanuchTime"];
     if (!lanuchTime) {
         [[NSUserDefaults standardUserDefaults] setObject:@"WWKLanuchSecond" forKey:@"WWKLanuchTime"];
@@ -31,20 +31,29 @@
             switch (state) {
                 case kCTCellularDataRestricted:
                     NSLog(@"限制蜂窝或全限制");
-                    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
-                    if (![AFNetworkReachabilityManager sharedManager].isReachableViaWiFi) {
-                        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"已为“基金豆”关闭网络"
-                                                                                                 message:@"您可以在“设置”中为此应用打开无线局域网。"
-                                                                                          preferredStyle:UIAlertControllerStyleAlert];
-                        [alertController addAction:[UIAlertAction actionWithTitle:@"设置" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
-                            NSURL *url = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
-                            [[UIApplication sharedApplication] openURL:url];
-                        }]];
-                        [alertController addAction:[UIAlertAction actionWithTitle:@"好" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-                        }]];
-                        UIViewController *currentViewController = [UIApplication sharedApplication].currentTopViewController;
-                        [currentViewController presentViewController:alertController animated:YES completion:nil];
-                    }
+                    [[AFNetworkReachabilityManager sharedManager ] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+                        switch (status) {
+                            case AFNetworkReachabilityStatusReachableViaWiFi:
+                                if (![AFNetworkReachabilityManager sharedManager].isReachableViaWiFi) {
+                                    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"已为“当前应用”关闭网络"
+                                                                                                             message:@"您可以在“设置”中为此应用打开无线局域网。"
+                                                                                                      preferredStyle:UIAlertControllerStyleAlert];
+                                    [alertController addAction:[UIAlertAction actionWithTitle:@"设置" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+                                        NSURL *url = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
+                                        [[UIApplication sharedApplication] openURL:url];
+                                    }]];
+                                    [alertController addAction:[UIAlertAction actionWithTitle:@"好" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                                    }]];
+                                    UIViewController *currentViewController = [UIApplication sharedApplication].currentTopViewController;
+                                    [currentViewController presentViewController:alertController animated:YES completion:nil];
+                                }
+                                break;
+                            case AFNetworkReachabilityStatusReachableViaWWAN:
+                                break;
+                            default:
+                                break;
+                        }
+                    }];
                     break;
                 case kCTCellularDataNotRestricted:
                     NSLog(@"全不限制");

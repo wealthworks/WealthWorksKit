@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+#define kUserDefaultsDeviceToken   @"kUserDefaultsDeviceToken"
+
 @interface WWKBundle : NSObject
 
 /**
@@ -29,5 +31,8 @@
  *  极光推送设置tag （1_1_0）
  */
 + (NSString *)jpushVersionForDebug:(BOOL)debug;
+
+
++ (NSString *)clientInfo:(void (^)(NSString *clientInfo))complete;
 
 @end

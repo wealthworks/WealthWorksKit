@@ -22,9 +22,10 @@
 {
     [super viewDidLoad];
     
-//    [self testCommonService];
+//    [WWKBundle clientInfo:^(NSString *clientInfo) {
+//    }];
     
-//    [WWKNetworkReachability alertIfNetworkNotConnect];
+    [WWKNetworkReachability alertIfNetworkNotConnect];
 }
 
 - (void)viewDidAppear:(BOOL)animated {

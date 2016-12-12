@@ -14,7 +14,6 @@
 #import <ifaddrs.h>
 #import <arpa/inet.h>
 #import <net/if.h>
-
 #import "NSString+Additions.h"
 
 #define WWK_IPADDRESS_IOS_CELLULAR    @"pdp_ip0"
