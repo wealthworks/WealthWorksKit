@@ -32,7 +32,14 @@
  */
 + (NSString *)jpushVersionForDebug:(BOOL)debug;
 
+/**
+ *  获取clientInfo，外部已知AFNetworkReachabilityManager的网络状态。
+ */
++ (NSString *)clientInfo;
 
-+ (NSString *)clientInfo:(void (^)(NSString *clientInfo))complete;
+/**
+ *  获取clientInfo，在AFNetworkReachabilityManager异步获取网络状态后返回，并且再网络状态更新后可重新获取clientInfo
+ */
++ (void)clientInfo:(void (^)(NSString *clientInfo))complete;
 
 @end

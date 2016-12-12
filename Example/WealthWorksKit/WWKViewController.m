@@ -24,8 +24,8 @@
     
 //    [WWKBundle clientInfo:^(NSString *clientInfo) {
 //    }];
-    
-    [WWKNetworkReachability alertIfNetworkNotConnect];
+//    NSString *info = [WWKBundle clientInfo];
+//    [WWKNetworkReachability alertIfNetworkNotConnect];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
