@@ -22,8 +22,9 @@
 {
     [super viewDidLoad];
     
-//    [self testCommonService];
-    
+//    [WWKBundle clientInfo:^(NSString *clientInfo) {
+//    }];
+//    NSString *info = [WWKBundle clientInfo];
 //    [WWKNetworkReachability alertIfNetworkNotConnect];
 }
 

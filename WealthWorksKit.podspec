@@ -54,9 +54,9 @@ Pod::Spec.new do |s|
     ss.public_header_files = 'WealthWorksKit/Classes/Navigator/*.h'
   end
 
-  s.subspec 'NSStringCategories' do |ss|
-    ss.source_files        = 'WealthWorksKit/Classes/NSStringCategories/*.{h,m}'
-    ss.public_header_files = 'WealthWorksKit/Classes/NSStringCategories/*.h'
+  s.subspec 'Categories' do |ss|
+    ss.source_files        = 'WealthWorksKit/Classes/Categories/*/*.{h,m}'
+    ss.public_header_files = 'WealthWorksKit/Classes/Categories/*/*.h'
   end
 
   s.subspec 'UIApplicationCategories' do |ss|
